@@ -664,7 +664,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -705,13 +705,17 @@
         "uuid": "7b040528-7065-4d6b-8722-075d9f593d01"
       }
     ],
-    "used_designators": "D7,D15,#PWR2-4,#PWR7-13,#PWR16-18,#PWR23,#PWR34-37,#PWR39-42,#PWR139,#PWR157,C1-2,C8-9,C12-15,C20-21,J35,R1-2,R6,U1,Y2",
+    "used_designators": "J28,R3-5,R7-11,R13,R21,R58-59,L2-5,#PWR5-6,#PWR14-16,#PWR19-22,#PWR24-33,#PWR38,#PWR43-47,#PWR90,#PWR95,#PWR105-106,#PWR127-128,#PWR143,#PWR145-146,#PWR148,D1-4,D6,D8-10,D23,C3-7,C10-11,C16-19,C22-23,C35,C45,C71,C73-75,U2-3,U5-6",
     "variants": []
   },
   "sheets": [
     [
       "7b040528-7065-4d6b-8722-075d9f593d01",
       "Storage_Armature_MCU_PCB"
+    ],
+    [
+      "775eef34-a29f-4248-aad4-070c6dff9083",
+      "P_measure"
     ],
     [
       "23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0",
