@@ -865,6 +865,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -2426,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 92.71) (xy 161.29 93.98)
+			(xy 166.37 92.71) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2698,7 +2851,7 @@
 	(symbol
 		(lib_name "+24V_1")
 		(lib_id "power:+24V")
-		(at 161.29 92.71 0)
+		(at 166.37 92.71 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2709,7 +2862,7 @@
 		(dnp no)
 		(uuid "21d8418f-b63d-4f0e-bac2-00c60c038f02")
 		(property "Reference" "#PWR0276"
-			(at 161.29 96.52 0)
+			(at 166.37 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2873,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 161.29 88.9 0)
+			(at 166.37 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2730,7 +2883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 92.71 0)
+			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 92.71 0)
+			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 161.29 92.71 0)
+			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,6 +4892,99 @@
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f2e4ada1-f365-47a5-a07e-bc132ee8c231"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 163.83 93.98 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6f01f59-7f87-4d94-a2a8-f459a312caa0")
+		(property "Reference" "F1"
+			(at 163.83 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF-SM075/60-2"
+			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm"
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8d83ad8-1ead-49e6-9f97-36e021ebd22d")
+		)
+		(pin "1"
+			(uuid "887608a2-1a81-45a8-9c65-defc10021cdf")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0"
+					(reference "F1")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/7474189f-61b5-451d-98c9-7dd492ce5d9c"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a3641e02-0c05-4204-9bda-a076fe6b4dee"
+					(reference "F5")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f2e4ada1-f365-47a5-a07e-bc132ee8c231"
+					(reference "F6")
 					(unit 1)
 				)
 			)
