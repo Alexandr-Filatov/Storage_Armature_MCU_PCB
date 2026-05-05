@@ -3716,8 +3716,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 184.15 101.6 0)
-		(mirror x)
+		(at 184.15 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3727,7 +3726,7 @@
 		(dnp no)
 		(uuid "92b288ef-d08a-4025-bcbf-9c1f48faa23a")
 		(property "Reference" "J24"
-			(at 184.15 96.266 0)
+			(at 184.15 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3737,7 +3736,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 186.69 99.06 0)
+			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3748,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +3770,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +3781,7 @@
 			)
 		)
 		(property "Replacement" ""
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +3792,7 @@
 			)
 		)
 		(property "Purpose" "Coil_1"
-			(at 184.15 104.394 0)
+			(at 184.15 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3803,7 +3802,7 @@
 			)
 		)
 		(property "Description P/N" "Connector"
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3813,7 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x1-MVT6"
-			(at 184.15 101.6 0)
+			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

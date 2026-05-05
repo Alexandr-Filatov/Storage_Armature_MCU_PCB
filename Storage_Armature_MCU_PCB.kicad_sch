@@ -7039,6 +7039,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power_my:+24_IN"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24_IN"
+				(at 0 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24_IN_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24_IN_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power_my:+3.3V_ISO"
 			(power global)
 			(pin_numbers
@@ -7521,457 +7648,11 @@
 		)
 		(uuid "d45b0385-debc-4cde-aa72-d9ca698a8d14")
 	)
-	(text_box "DAC_OUT2\n"
-		(exclude_from_sim no)
-		(at 236.855 118.999 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "07d506a7-bde5-4295-8fbd-70242663e2b8")
-	)
-	(text_box "ADC12_IN7"
-		(exclude_from_sim no)
-		(at 236.855 106.299 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "0843420a-cc73-4c82-ae72-be8b7f338c01")
-	)
-	(text_box "Аналоговый блок"
-		(exclude_from_sim no)
-		(at 216.535 98.679 0)
-		(size 40.64 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "114cc944-5402-4445-b448-6fe09b148376")
-	)
-	(text_box "VDC_IN_SENSE\n"
-		(exclude_from_sim no)
-		(at 216.535 108.839 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "156695c1-4ed6-4d47-a693-09a3d86d1e13")
-	)
-	(text_box "ADC12_IN15"
-		(exclude_from_sim no)
-		(at 236.855 108.839 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "20bb7890-0fb0-436b-8cb8-32badc0919d7")
-	)
-	(text_box "DAC_OUT1"
-		(exclude_from_sim no)
-		(at 216.535 116.459 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "22f420a6-df2e-4fe7-8600-92aaa8887eff")
-	)
-	(text_box "VDC_OUT2_SENSE"
-		(exclude_from_sim no)
-		(at 216.535 106.299 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "3ea69abe-1b8b-4adc-8310-61e5513e8f4e")
-	)
-	(text_box "DAC"
-		(exclude_from_sim no)
-		(at 216.535 113.919 0)
-		(size 40.64 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "448d535f-a0cb-4fe6-8e99-6b3eb24c8af0")
-	)
-	(text_box "CAN1_RXD_MCU"
-		(exclude_from_sim no)
-		(at 161.417 103.759 0)
-		(size 33.02 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "524ba5ed-651f-40b9-b14a-b06134e17f47")
-	)
-	(text_box "ADC12_IN14"
-		(exclude_from_sim no)
-		(at 236.855 111.379 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "5a077de3-7d57-4e7e-b6dc-38ab5f8091ba")
-	)
-	(text_box "CAN1_RX"
-		(exclude_from_sim no)
-		(at 194.437 103.759 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "636bf261-883e-4247-99dc-33710e18bd67")
-	)
-	(text_box "CAN1_TXD_MCU"
-		(exclude_from_sim no)
-		(at 161.417 106.299 0)
-		(size 33.02 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "6628c7d3-8598-4acc-bdb6-73e9833e1ec9")
-	)
-	(text_box "CAN1_TX"
-		(exclude_from_sim no)
-		(at 194.437 106.299 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "6b436f97-b46a-4b7a-adc2-fc44eb9957e3")
-	)
-	(text_box "DAC_OUT1"
-		(exclude_from_sim no)
-		(at 236.855 116.459 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "6c871c98-8b62-4ffb-ace5-68aff93a4428")
-	)
-	(text_box "DAC_OUT2"
-		(exclude_from_sim no)
-		(at 216.535 118.999 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "7c01deff-2b21-4645-8201-c387e25213cd")
-	)
-	(text_box "ADC12_IN8"
-		(exclude_from_sim no)
-		(at 236.855 101.219 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "8bbec1cc-fcba-4292-b119-5773b26ecea4")
-	)
-	(text_box "Интерфейсы"
-		(exclude_from_sim no)
-		(at 161.417 98.679 0)
-		(size 53.34 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "b0655418-3feb-438e-8d5a-79f54ec5dc87")
-	)
-	(text_box "CAN"
-		(exclude_from_sim no)
-		(at 161.417 101.219 0)
-		(size 53.34 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "b688e070-d0f1-4246-9336-7da1fa8c180c")
-	)
-	(text_box "ADC12_IN6"
-		(exclude_from_sim no)
-		(at 236.855 103.759 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "b769ceb2-6e35-4a8a-acb9-1afeac3e14ac")
-	)
-	(text_box "VDC_OUT1_SENSE"
-		(exclude_from_sim no)
-		(at 216.535 111.379 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "bb84e1c7-6507-4f13-9c32-47bfa67260f5")
-	)
-	(text_box "Current_SENSE\n"
-		(exclude_from_sim no)
-		(at 216.535 103.759 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "f15fe2a5-65a0-40d4-81ff-1cca648a289d")
-	)
-	(text_box "+24V_SENSE\n"
-		(exclude_from_sim no)
-		(at 216.535 101.219 0)
-		(size 20.32 2.54)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-		)
-		(uuid "fdae7d58-f34a-4e2e-a175-3200f940cb15")
-	)
 	(junction
 		(at 99.06 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "030a2be5-137e-4e0f-9b3d-8869af41e32d")
-	)
-	(junction
-		(at 82.55 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0db3ef92-225b-4e84-b3f1-d3fe24c76187")
 	)
 	(junction
 		(at 99.06 252.73)
@@ -8028,6 +7709,12 @@
 		(uuid "35a63f2d-2826-4d9e-82c2-da474253c741")
 	)
 	(junction
+		(at 314.96 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3740c782-a211-451f-89df-cdd92f82a382")
+	)
+	(junction
 		(at 676.91 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8044,12 +7731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47268afe-7c54-4a3a-87e1-ce24f63a0066")
-	)
-	(junction
-		(at 314.96 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48c4e353-8c00-4b80-8d81-3bf017e5b683")
 	)
 	(junction
 		(at 82.55 201.93)
@@ -8196,6 +7877,12 @@
 		(uuid "cd0a1406-794b-4fa5-b144-f2a6e3621cd5")
 	)
 	(junction
+		(at 82.55 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd2d1dba-f0d5-42d1-9bfb-4a0890a5ae09")
+	)
+	(junction
 		(at 121.92 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8278,6 +7965,10 @@
 	(no_connect
 		(at 595.63 337.82)
 		(uuid "56c94f09-040a-4aba-be07-4b129295e95e")
+	)
+	(no_connect
+		(at 132.08 246.38)
+		(uuid "6ef74052-53b0-452c-a152-5df4df6e0dbe")
 	)
 	(no_connect
 		(at 595.63 320.04)
@@ -12095,84 +11786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 82.55 182.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "223418eb-f731-4c1f-ae4e-0c0371212903")
-		(property "Reference" "#PWR0141"
-			(at 82.55 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 82.55 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "474f2ac7-edfc-4220-a2c3-348d93bf4760")
-		)
-		(instances
-			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 626.11 302.26 0)
 		(mirror x)
@@ -12601,7 +12214,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 312.42 217.17 90)
+		(at 312.42 214.63 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12632,7 +12246,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12654,7 +12268,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +12279,7 @@
 			)
 		)
 		(property "Replacement" ""
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +12300,7 @@
 			)
 		)
 		(property "Description P/N" "Connector"
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +12311,7 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x2-MVT6"
-			(at 312.42 217.17 0)
+			(at 312.42 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20282,7 +19896,7 @@
 	)
 	(symbol
 		(lib_id "power:-24V")
-		(at 82.55 201.93 0)
+		(at 82.55 201.93 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -20293,7 +19907,7 @@
 		(dnp no)
 		(uuid "bf262407-cae2-4b62-b36e-78e215c334a6")
 		(property "Reference" "#PWR0134"
-			(at 82.55 198.12 0)
+			(at 86.36 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20303,8 +19917,8 @@
 				)
 			)
 		)
-		(property "Value" "-24V"
-			(at 82.55 205.994 0)
+		(property "Value" "-24V_IN"
+			(at 74.93 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21303,6 +20917,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power_my:+24_IN")
+		(at 82.55 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d43903e0-c125-429b-a786-48094710783a")
+		(property "Reference" "#PWR0161"
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24_IN"
+			(at 75.692 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1593a82-e714-4048-bc51-8e08c0f7d21f")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 299.72 180)
 		(unit 1)
@@ -22103,7 +21794,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 312.42 200.66 90)
+		(at 312.42 198.12 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22134,7 +21826,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22145,7 +21837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22156,7 +21848,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22167,7 +21859,7 @@
 			)
 		)
 		(property "Replacement" ""
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22188,7 +21880,7 @@
 			)
 		)
 		(property "Description P/N" "Connector"
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22199,7 +21891,7 @@
 			)
 		)
 		(property "Product Name" "DS1073-01-2x2-MVT6"
-			(at 312.42 200.66 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
