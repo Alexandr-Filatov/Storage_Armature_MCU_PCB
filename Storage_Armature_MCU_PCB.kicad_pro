@@ -705,7 +705,7 @@
         "uuid": "7b040528-7065-4d6b-8722-075d9f593d01"
       }
     ],
-    "used_designators": "J28,R3-5,R7-11,R13,R21,R58-59,L2-5,#PWR5-6,#PWR14-16,#PWR19-22,#PWR24-33,#PWR38,#PWR43-47,#PWR90,#PWR95,#PWR105-106,#PWR127-128,#PWR143,#PWR145-146,#PWR148,D1-4,D6,D8-10,D23,C3-7,C10-11,C16-19,C22-23,C35,C45,C71,C73-75,U2-3,U5-6",
+    "used_designators": "H4-5,U14,#PWR41,#PWR151,#PWR156,C65,R47-48",
     "variants": []
   },
   "sheets": [
@@ -715,7 +715,23 @@
     ],
     [
       "775eef34-a29f-4248-aad4-070c6dff9083",
-      "P_measure"
+      "Sensor_1"
+    ],
+    [
+      "06465e94-58b4-46d5-bebd-58dc4f771485",
+      "Sensor_2"
+    ],
+    [
+      "6cbd62b9-7c87-47a1-a565-b02aa5c85098",
+      "Sensor_3"
+    ],
+    [
+      "b1c8182c-fb29-4994-9c3a-29970e43d124",
+      "Sensor_4"
+    ],
+    [
+      "d8feeea0-7852-444e-abaf-8314df747b14",
+      "Sensor_5"
     ],
     [
       "23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0",

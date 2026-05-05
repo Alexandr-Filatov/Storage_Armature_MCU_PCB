@@ -2391,12 +2391,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "67bbfec8-d2c0-4999-9d3d-c46a2350d42d")
+			(uuid "d129bdd9-2894-46d4-a882-e7af9a718df7")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR080")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -2468,12 +2484,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "69bcc478-c249-4280-8b3b-0c2a11681c1b")
+			(uuid "42f9858f-6c83-4274-98cc-38f74aef63b1")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR085")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -2590,15 +2622,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "d15b00fc-588e-4f81-897f-e3b16c40f762")
+			(uuid "9948f3b8-c64d-47ed-9939-37889260fc00")
 		)
 		(pin "2"
-			(uuid "1fe37437-f549-4e91-8549-30965f8b24fb")
+			(uuid "392933dd-6d9c-4c65-b950-467c7f427ba5")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C33")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C19")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -2671,15 +2719,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bcfdd06-1674-494c-b673-b9fa00832120")
+			(uuid "a7d4d07a-9e65-442b-a545-429da37d18bb")
 		)
 		(pin "2"
-			(uuid "03014402-6b73-467c-8ac9-e0623ad49703")
+			(uuid "84dfbb13-6393-4ada-8a7a-398f5aaa7b50")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R18")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2795,15 +2859,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "31bb1b40-d9e1-41c9-b62e-5259e0a9a233")
+			(uuid "5093ec26-d30f-40c8-b74c-cb9e8b580179")
 		)
 		(pin "2"
-			(uuid "cd36dbf8-454c-4b44-ad5b-b34ca6fa1a8c")
+			(uuid "2964d306-984d-4de9-8e8c-536adf24bd31")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C40")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -2874,15 +2954,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea27f053-bd7e-4d4c-a960-c4e9b5f140cc")
+			(uuid "284df621-6b08-46ae-aa95-cbe7dfea7d8e")
 		)
 		(pin "2"
-			(uuid "304226b2-ac43-4847-aa6a-8a8f4c02772c")
+			(uuid "02bc6d05-dfa9-4e99-912e-60a3c9e23c99")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R19")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2955,12 +3051,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "72b6201a-fcd1-42e1-8c95-d9964fa0c1e0")
+			(uuid "63691067-18f7-4bba-9bf0-62f9edf94ba8")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR081")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -3077,15 +3189,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e747436-7d0f-4f0c-b856-bd147492d61a")
+			(uuid "2a3ba948-fc0f-4f15-a9e8-fee400e8c9c6")
 		)
 		(pin "2"
-			(uuid "3d55b5ea-e389-4cf2-b913-4b34428417e1")
+			(uuid "f0865899-3b8f-4151-9b90-c4232d7b7d46")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R26")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R21")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3202,15 +3330,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a4ea232-5c4e-4d0c-b2ef-14b589d44069")
+			(uuid "494e4c91-867b-4b1d-bafa-2b2a82cf0347")
 		)
 		(pin "2"
-			(uuid "002def08-6fd1-445c-986e-f156e8724cae")
+			(uuid "a50e7036-f46e-49d1-853b-9b06217a68a9")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C41")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -3283,12 +3427,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c3481c4-739f-4a7e-b76f-851a7c64e40b")
+			(uuid "1e58b38d-a805-47ae-9ade-271bb27c79ba")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR079")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3405,15 +3565,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e03f8ee-c5ca-425f-b819-721fa1731367")
+			(uuid "8ac717d1-b7ac-44d0-ae52-7703f93de625")
 		)
 		(pin "2"
-			(uuid "4a204eaa-b824-40bd-b35a-394ce63cd7db")
+			(uuid "76df24db-5cd2-4da7-9211-72d57ac6d7ab")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C32")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C18")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3530,15 +3706,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "894bb036-d7e7-4324-939b-ef28d0320a11")
+			(uuid "a04387f9-e52b-4c93-8267-d33288ffd3c9")
 		)
 		(pin "1"
-			(uuid "8a6fa669-d88f-462f-b70a-3c6907cafa34")
+			(uuid "7433f7dd-dec4-4b9e-9d40-5ca926d8acac")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "J30")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "J28")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -3610,12 +3802,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "82d15768-e9cf-4cbf-bcfe-59e7e2433567")
+			(uuid "0e633b8e-0254-4b79-89be-d89d01b065d6")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR092")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -3687,12 +3895,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d9e2752-14ce-4319-a31a-a7e26ed7d5cf")
+			(uuid "fb3d3c21-3107-4179-a215-1d4fe23b8cdc")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR074")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3765,12 +3989,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "98ed9944-362a-4a36-b302-a408ceacd2af")
+			(uuid "f02b0255-517c-42ad-b84d-84ff51262c32")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR091")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -3842,12 +4082,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "18166533-c267-401c-ab28-6c712d2135fa")
+			(uuid "bc7f602c-574f-4924-86a0-3f75beff0d3e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR084")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -3920,12 +4176,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e321f4b-93b5-4052-a67f-35e22773674b")
+			(uuid "90adc849-add2-45c6-983f-64b3ad57ecb1")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR075")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -3998,12 +4270,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "54e151c2-af8d-40ab-83b7-4e832c6605ee")
+			(uuid "c074ec91-97cd-4ac1-9724-dfc629ed7535")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR083")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -4075,12 +4363,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1c47074-f3b9-41bb-93c1-fb4ca631c86f")
+			(uuid "e28745c1-eeb6-4fac-902a-d7581c54e685")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR077")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -4200,18 +4504,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bbdf0eb-c094-484b-9a40-ba7ef5f419ec")
+			(uuid "b3981e6c-5457-43fe-b8be-fdbed5805bff")
 		)
 		(pin "2"
-			(uuid "248845e4-23cd-49a5-be46-7a9f1efe9fc2")
+			(uuid "f08b5f51-0d83-4dff-a741-cda4ad416524")
 		)
 		(pin "3"
-			(uuid "473dfe95-1e93-4d3e-896c-814860840ecc")
+			(uuid "f8ba4040-1a13-4f4d-8c74-22b6b3a7ca3e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "D4")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4326,15 +4646,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a40819c-7bd0-4d26-a07d-4af214139f26")
+			(uuid "f12f4c9b-d43b-4f7d-a4c7-85811580a6c4")
 		)
 		(pin "2"
-			(uuid "0dbfbc39-27a9-472e-8dc0-d6dbbb68c7a5")
+			(uuid "d3768471-08ca-4f9c-b7fd-8eab65bc33b6")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R23")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4451,15 +4787,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "5337f8b0-5a7c-47e6-ac04-18c1dbe909eb")
+			(uuid "91f0823e-b6ce-4df9-b710-14e8e9e2850d")
 		)
 		(pin "2"
-			(uuid "4add13f8-53a4-4a27-a94f-0608c9f86ac9")
+			(uuid "3bb96338-1381-4978-be10-08ecca3281a7")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R25")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4531,12 +4883,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc589c57-fd17-496b-bfcd-09523b6ebe22")
+			(uuid "f6487f24-a229-485b-ba25-4254cfd0fea9")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR076")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -4651,15 +5019,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c2ab562-3231-4b8f-a7f7-4994337339fe")
+			(uuid "d2c311be-d5d0-452b-8315-8fddd54c9a05")
 		)
 		(pin "2"
-			(uuid "6dc14844-365a-4bc5-b6f7-a559478755f4")
+			(uuid "9cfe8f4d-d302-4c24-a8c1-0ecd4e080f3d")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R27")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -4774,15 +5158,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5aa930c-395a-4fba-9765-ee11acbd1728")
+			(uuid "bb4bcb21-8b39-4358-9e90-df03ca0fbdec")
 		)
 		(pin "2"
-			(uuid "c4499e94-0943-453f-8ca1-d671598b4893")
+			(uuid "9be76c12-72aa-460b-9bae-21a5351540e2")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R24")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4854,12 +5254,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d31b65c-f63c-41c5-b27e-0fcaebb266c0")
+			(uuid "485a0600-b6db-4eb6-8a73-b3b7f5c94eb3")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR088")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -4930,15 +5346,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "d242f8b0-cfb1-4c4b-8f25-37f9e6ac618f")
+			(uuid "ede02856-9c54-4ee2-8769-9b5df3716ef5")
 		)
 		(pin "2"
-			(uuid "63661321-5e7c-49fc-bd16-baaabd05f48b")
+			(uuid "3b91af60-84dc-4141-a230-dde1c86cb0c8")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R20")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5010,12 +5442,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e5ac62e-f5ec-429b-8de3-07ec31ad2dde")
+			(uuid "2f478a93-dc21-4df8-90a0-34e9fdf88d18")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR090")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -5132,15 +5580,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9dc482c-94c4-4e86-9dc5-d161717bf40f")
+			(uuid "5d1c6073-85e5-40a9-9a8b-29f7e8c773ad")
 		)
 		(pin "2"
-			(uuid "c9222d92-7af4-4176-88f3-d57672eef142")
+			(uuid "74b04f26-2e4c-4fc5-ad2c-2fe65220e204")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C7")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5211,33 +5675,49 @@
 			)
 		)
 		(pin "3"
-			(uuid "52afcfc9-45ed-4493-a1d0-ffb74b87f061")
+			(uuid "09cd453d-a427-400c-b37e-4b9472113000")
 		)
 		(pin "6"
-			(uuid "5aacb8a9-3a44-49ed-b614-04ef38b29672")
+			(uuid "4d1db515-1293-49e3-a64f-69cb7de8310c")
 		)
 		(pin "4"
-			(uuid "6525142e-0c70-401c-945c-5632fae39418")
+			(uuid "68d77e0a-0213-45b6-b365-a9195662660a")
 		)
 		(pin "5"
-			(uuid "4f1d1edd-b3f5-4dc2-af92-dd2c0a54df90")
+			(uuid "6c22be48-bd3c-4158-8097-a00e572dd992")
 		)
 		(pin "7"
-			(uuid "7fb500f9-8b6a-47ef-ad92-a006e2a0b80e")
+			(uuid "ca1a4d73-65e2-4746-9698-6d55eb8e4692")
 		)
 		(pin "8"
-			(uuid "a899f2cb-f194-4136-84c3-b462997365e3")
+			(uuid "b4b4509f-6896-4a65-8533-ea1b654dce35")
 		)
 		(pin "1"
-			(uuid "64fe3c3b-58f8-494b-a604-a9e3352f3537")
+			(uuid "bf7321fd-b8cb-48df-9687-df92856f3c74")
 		)
 		(pin "2"
-			(uuid "34a5b8ec-27a9-44a6-a2c3-71510891dc84")
+			(uuid "af50f5aa-4133-4c65-bca9-338a4935a34d")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "U8")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "U2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5309,12 +5789,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "02f3c58e-b519-4581-9457-d9953bc95d5b")
+			(uuid "ccefc232-91de-47d7-be2f-688216c747d2")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR095")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -5431,15 +5927,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6db88cf-1ea2-4311-8d76-6416c9686260")
+			(uuid "d337f954-c8f3-4f46-b88f-b5a83e6fc9ce")
 		)
 		(pin "2"
-			(uuid "0aa953e0-85e9-4daf-b8c2-5f4d62d863d2")
+			(uuid "a972f261-e42c-49bc-910e-88d0a0707008")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C38")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C23")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -5512,12 +6024,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "a079b858-3ab5-484e-9382-f33c546df624")
+			(uuid "337f5c7a-3caa-4fea-849c-5556d0b5d5eb")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR086")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -5634,15 +6162,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "98de52c7-68ce-49e9-bdac-6b1f82185bce")
+			(uuid "d18260b0-1075-4502-a322-c34990e723b5")
 		)
 		(pin "2"
-			(uuid "a1156a05-f303-4688-9205-d26b9ae9c55e")
+			(uuid "0f49200d-d6b6-480e-abcb-0638c589368a")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C36")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -5714,24 +6258,40 @@
 			)
 		)
 		(pin "2"
-			(uuid "946a38ae-40a0-41c7-a462-f62db700dcfd")
+			(uuid "9db8934d-49ae-48a2-b8ad-b1e0d8489f26")
 		)
 		(pin "5"
-			(uuid "a202924d-9c9d-48ac-b374-b36214aae8db")
+			(uuid "51319c53-759b-4748-b9c5-701f04ef90ce")
 		)
 		(pin "4"
-			(uuid "8564f33f-a06b-41c3-8cf1-adad55923762")
+			(uuid "3dfcec64-81bf-4ece-a3d2-a79f623f897c")
 		)
 		(pin "1"
-			(uuid "7b4c47e4-021e-44cd-8006-8f6023bface5")
+			(uuid "a4340274-e4f1-4cc0-8e34-e35a6509affc")
 		)
 		(pin "3"
-			(uuid "bfa16cb9-3c3f-4689-9ec3-a6f7921d4e95")
+			(uuid "098525e7-a066-4270-86fb-adf77f4c8873")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "U9")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -5848,15 +6408,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab6e7759-2ad3-46b5-86c9-d842a9d7fd25")
+			(uuid "4e9c5597-268e-4523-9e5e-0953c286c82f")
 		)
 		(pin "2"
-			(uuid "b97495f6-70ec-496d-bd88-19a34dd255d4")
+			(uuid "f7708a6a-8f2e-46ea-98ab-97e7c8ad19aa")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C37")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C22")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -5928,12 +6504,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1ab3e05-eec5-4654-8a38-f780d8e79bf4")
+			(uuid "cae3da26-ca84-49be-a590-671e597709fe")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR078")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -6050,15 +6642,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "b35f54be-108f-442e-b514-b4dce264640b")
+			(uuid "881f5858-f23c-436e-a555-5b91459416f7")
 		)
 		(pin "2"
-			(uuid "8b3b3c53-11e7-4506-af98-7570f9a2e967")
+			(uuid "fe34e76c-45a1-4383-819d-9e7532a307ed")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "C39")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "C16")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -6130,12 +6738,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "c65b71f2-612a-42b3-ad53-ab1510379b89")
+			(uuid "ff06f4db-3fae-4085-85de-5290cdeaf153")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR082")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -6208,12 +6832,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "67b32d39-9e25-4489-bb42-f9ab88c27404")
+			(uuid "7cca3adc-4e84-4c05-8f48-b0e28a15664a")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR073")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
 					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
