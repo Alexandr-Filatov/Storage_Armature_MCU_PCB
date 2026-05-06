@@ -507,7 +507,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -705,7 +705,7 @@
         "uuid": "7b040528-7065-4d6b-8722-075d9f593d01"
       }
     ],
-    "used_designators": "F1-6,C70,J36-40,#PWR162-171",
+    "used_designators": "J28-32,R49,#PWR172-197",
     "variants": []
   },
   "sheets": [

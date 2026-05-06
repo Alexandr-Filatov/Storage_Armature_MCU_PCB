@@ -496,7 +496,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -507,7 +507,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -516,8 +516,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -548,7 +548,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -570,7 +570,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -581,10 +581,10 @@
 					)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -615,28 +615,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -656,7 +634,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -666,42 +644,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1861,110 +1803,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power_my:GND_ISO"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND_ISO"
-				(at 0 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_ISO_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_ISO_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 166.37 84.455)
@@ -2024,7 +1862,7 @@
 		(at 101.6 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c28a5085-6098-4051-98e8-24db2aa4f9ba")
+		(uuid "c6b2b571-3a92-4be2-b14c-176c1aa1f2d6")
 	)
 	(junction
 		(at 172.72 105.41)
@@ -2113,16 +1951,6 @@
 			(type default)
 		)
 		(uuid "0c3162b6-325c-451e-94bf-5e7d281bceae")
-	)
-	(wire
-		(pts
-			(xy 96.52 106.68) (xy 101.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f297b6b-d9d0-4643-bc5d-9894672b8d76")
 	)
 	(wire
 		(pts
@@ -2246,16 +2074,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 104.14) (xy 96.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e2cf1b-178e-435b-b523-7196be3c68a2")
-	)
-	(wire
-		(pts
 			(xy 133.35 110.49) (xy 132.08 110.49)
 		)
 		(stroke
@@ -2346,13 +2164,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 96.52 104.14)
+			(xy 88.9 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c5644a6-9a23-4089-8f56-6df85d4d095c")
+		(uuid "9780a60a-ac10-4309-af1e-c53eea94d70a")
 	)
 	(wire
 		(pts
@@ -2446,26 +2264,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 88.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd93b48-166c-4a01-b479-3e26eecbfd9d")
-	)
-	(wire
-		(pts
-			(xy 101.6 99.06) (xy 96.52 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a0d996-9b90-4665-bab6-9456c63c58f7")
-	)
-	(wire
-		(pts
 			(xy 180.34 110.49) (xy 180.34 113.03)
 		)
 		(stroke
@@ -2473,16 +2271,6 @@
 			(type default)
 		)
 		(uuid "c20122c3-b2cf-49ff-b76f-b102197d2f20")
-	)
-	(wire
-		(pts
-			(xy 96.52 99.06) (xy 96.52 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c896ee2f-0911-4da6-a0c6-2dff076c030d")
 	)
 	(wire
 		(pts
@@ -2613,26 +2401,6 @@
 			(type default)
 		)
 		(uuid "fe17cb9d-0348-4645-bb78-deeeb2d18aa5")
-	)
-	(label "P_OUT"
-		(at 88.9 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "515aa0ea-acfb-4f7d-8988-54da61d6c31e")
-	)
-	(label "P_IN"
-		(at 88.9 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9326eb65-027d-4ee8-99c7-a0af7d75f723")
 	)
 	(hierarchical_label "P_measure_MCU"
 		(shape output)
@@ -2832,6 +2600,99 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 115.57 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2df42101-4545-4ebe-81c3-50a2efd7813f")
+		(property "Reference" "#PWR0188"
+			(at 115.57 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 115.57 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 115.57 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cf5395b-43aa-43fe-b3e4-4cf3699c85c1")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 82.55 0)
 		(unit 1)
@@ -2967,151 +2828,6 @@
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 81.28 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2feb879a-8a1b-434e-ac4c-d3b12530372a")
-		(property "Reference" "J36"
-			(at 82.55 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement" ""
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Sensor"
-			(at 82.55 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" "Connector"
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
-			(at 81.28 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "2507a6d7-e5c9-4b3b-8cf5-93e485f510da")
-		)
-		(pin "1"
-			(uuid "bfafee0d-0af8-4e2b-9f99-d0511fbf2743")
-		)
-		(pin "2"
-			(uuid "f56f3c3a-290a-4179-a32d-33b93d4db3f4")
-		)
-		(pin "4"
-			(uuid "14c531bb-f27f-424e-a57c-99c30a3336e1")
-		)
-		(instances
-			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "J37")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "J38")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "J36")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "J39")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "J40")
 					(unit 1)
 				)
 			)
@@ -4154,18 +3870,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power_my:GND_ISO")
-		(at 105.41 86.36 0)
+		(lib_id "power:GNDD")
+		(at 101.6 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4dd44676-7645-4132-a148-7e75cd6e2772")
-		(property "Reference" "#PWR033"
-			(at 105.41 90.424 0)
+		(uuid "5166db2a-ab7e-4f68-b0d1-fc901706501e")
+		(property "Reference" "#PWR0193"
+			(at 101.6 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,8 +3891,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_ISO"
-			(at 105.41 90.17 0)
+		(property "Value" "GNDD"
+			(at 101.6 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4186,7 +3902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 86.36 0)
+			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +3913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 86.36 0)
+			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,8 +3923,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,28 +3935,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb3d3c21-3107-4179-a215-1d4fe23b8cdc")
+			(uuid "38ce913e-032f-4243-b156-7894f727e83e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR049")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR074")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR033")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0107")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0126")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -5142,18 +4858,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power_my:GND_ISO")
-		(at 115.57 86.36 0)
+		(lib_id "power:GNDD")
+		(at 127 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83e253b8-8383-4b5e-9390-7314af53fbd4")
-		(property "Reference" "#PWR038"
-			(at 115.57 90.424 0)
+		(uuid "8435d542-10f7-428d-8408-bfcb0ffb7efe")
+		(property "Reference" "#PWR0178"
+			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5163,8 +4879,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_ISO"
-			(at 115.57 90.17 0)
+		(property "Value" "GNDD"
+			(at 127 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5174,7 +4890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 86.36 0)
+			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5185,7 +4901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 86.36 0)
+			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,8 +4911,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 127 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5207,28 +4923,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6487f24-a229-485b-ba25-4254cfd0fea9")
+			(uuid "abed4448-118f-4259-8ae4-731c7c566749")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR051")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR076")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR038")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0109")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0128")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -5514,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 76.2 101.6 90)
+		(at 88.9 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5524,7 +5240,7 @@
 		(dnp no)
 		(uuid "973bc587-c771-4bd4-9ec0-ce49a8751b18")
 		(property "Reference" "#PWR0162"
-			(at 80.01 101.6 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5251,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 70.866 101.6 90)
+			(at 94.234 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5545,7 +5261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 101.6 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 101.6 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 101.6 0)
+			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,6 +5316,99 @@
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 105.41 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3ba811e-266a-41fa-b840-da9d9cefb9f0")
+		(property "Reference" "#PWR0183"
+			(at 105.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 105.41 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f410eaf-fd97-4763-ad01-a5f238812df6")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -6856,99 +6665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power_my:GND_ISO")
-		(at 127 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e484193d-5506-48e8-8bd3-7051c0568486")
-		(property "Reference" "#PWR026"
-			(at 127 115.824 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_ISO"
-			(at 127 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cae3da26-ca84-49be-a590-671e597709fe")
-		)
-		(instances
-			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 113.03 0)
 		(unit 1)
@@ -7183,99 +6899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 76.2 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f41c24f7-10b1-42ec-9a6b-b6c9a90b754b")
-		(property "Reference" "#PWR0163"
-			(at 69.85 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 71.12 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 76.2 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5c486d8-4399-414c-9294-6647d153da65")
-		)
-		(instances
-			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0165")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_my:+3.3V_ISO")
 		(at 105.41 78.74 0)
 		(unit 1)
@@ -7364,6 +6987,146 @@
 				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 83.82 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
+		(property "Reference" "J28"
+			(at 83.82 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Sensor"
+			(at 83.82 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x1-MVT6"
+			(at 83.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "86bf6bd9-2447-4069-a07b-2a6cbaf4c9dd")
+		)
+		(pin "1"
+			(uuid "51fcae96-9372-449a-9c5b-c1dcd331caf6")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "J32")
 					(unit 1)
 				)
 			)
