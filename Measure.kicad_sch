@@ -496,6 +496,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1817,6 +1940,12 @@
 		(uuid "3701f34d-84a9-4dd1-818f-ad4ac730804e")
 	)
 	(junction
+		(at 101.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d406a21-a962-4101-afd8-dd523337f385")
+	)
+	(junction
 		(at 193.04 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1833,6 +1962,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69084d64-a10a-4775-8c45-281c229f2436")
+	)
+	(junction
+		(at 215.9 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745d6baa-679f-42e1-a139-37ab726ae68d")
+	)
+	(junction
+		(at 101.6 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79486976-68d8-47f2-8a57-5e1c23d93964")
 	)
 	(junction
 		(at 180.34 92.71)
@@ -1857,12 +1998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb3e4f97-d2de-4eef-9688-3414099a0cbf")
-	)
-	(junction
-		(at 101.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6b2b571-3a92-4be2-b14c-176c1aa1f2d6")
 	)
 	(junction
 		(at 172.72 105.41)
@@ -1934,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 102.87) (xy 209.55 102.87)
+			(xy 205.74 102.87) (xy 215.9 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2194,6 +2329,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 102.87) (xy 220.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa40dbaa-c5af-4756-b807-be163f399d83")
+	)
+	(wire
+		(pts
 			(xy 180.34 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -2404,7 +2549,7 @@
 	)
 	(hierarchical_label "P_measure_MCU"
 		(shape output)
-		(at 209.55 102.87 0)
+		(at 220.98 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2412,6 +2557,112 @@
 			(justify left)
 		)
 		(uuid "0c4b9ac7-fb50-471e-ae23-720bb4ec3edc")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "022516c8-0302-46e9-bf27-bb36bbebbae5")
+		(property "Reference" "TP1"
+			(at 215.9 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 100.8379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 220.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b514247-0def-48f7-8358-6cc88d0277e8")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2479,7 +2730,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d129bdd9-2894-46d4-a882-e7af9a718df7")
+			(uuid "f16fa75a-ceca-48f9-b113-7b4371aef6ab")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -2499,8 +2750,129 @@
 					(reference "#PWR0113")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0163")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f95f607-0b57-471d-b879-6da6c48c2386")
+		(property "Reference" "R79"
+			(at 102.87 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 102.87 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 99.822 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "RT1206BRD0710RL"
+			(at 101.6 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d5b71ef-8d6d-45d9-87d4-b0d5726bfe67")
+		)
+		(pin "2"
+			(uuid "964d32c9-7fe9-476c-ad34-39b4d1f3cda6")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "R81")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "R82")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "R83")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2944,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "42f9858f-6c83-4274-98cc-38f74aef63b1")
+			(uuid "3f2770d0-4b97-4885-8875-7f1dd6bccc9c")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -2592,8 +2964,20 @@
 					(reference "#PWR0118")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0203")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -2665,7 +3049,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cf5395b-43aa-43fe-b3e4-4cf3699c85c1")
+			(uuid "1a41a7dc-b9fa-4b92-959c-00121c51b357")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -2685,8 +3069,20 @@
 					(reference "#PWR0191")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0200")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0192")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -2803,10 +3199,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9948f3b8-c64d-47ed-9939-37889260fc00")
+			(uuid "444923ab-a320-4913-aec2-9aa33029889d")
 		)
 		(pin "2"
-			(uuid "392933dd-6d9c-4c65-b950-467c7f427ba5")
+			(uuid "7c29a369-d122-42e6-9c6e-0267d6d21401")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -2826,8 +3222,20 @@
 					(reference "C43")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C75")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C57")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C97")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -2900,10 +3308,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7d4d07a-9e65-442b-a545-429da37d18bb")
+			(uuid "ba631d7e-3fc7-4ca6-b747-cd489f14cd45")
 		)
 		(pin "2"
-			(uuid "84dfbb13-6393-4ada-8a7a-398f5aaa7b50")
+			(uuid "f4ec4ab8-dc6c-4d60-baff-5b48e3e9befc")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -2923,8 +3331,20 @@
 					(reference "R28")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R50")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R36")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -3040,10 +3460,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5093ec26-d30f-40c8-b74c-cb9e8b580179")
+			(uuid "00688ca3-b800-4bec-a04a-c3eb14e4398f")
 		)
 		(pin "2"
-			(uuid "2964d306-984d-4de9-8e8c-536adf24bd31")
+			(uuid "f2c24afc-59c3-474b-86d5-d36afe847303")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3063,8 +3483,20 @@
 					(reference "C54")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C81")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C63")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C103")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -3135,10 +3567,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "284df621-6b08-46ae-aa95-cbe7dfea7d8e")
+			(uuid "f4421daa-7cf6-430e-ab88-8bc80e4d63dd")
 		)
 		(pin "2"
-			(uuid "02bc6d05-dfa9-4e99-912e-60a3c9e23c99")
+			(uuid "5ca1c286-4034-446e-9eea-42cfc9925cc1")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3158,8 +3590,20 @@
 					(reference "R29")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R51")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R38")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3676,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "63691067-18f7-4bba-9bf0-62f9edf94ba8")
+			(uuid "adec5688-19b4-4b4a-b416-42f4808e11a2")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3252,8 +3696,20 @@
 					(reference "#PWR0114")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0165")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -3370,10 +3826,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a3ba948-fc0f-4f15-a9e8-fee400e8c9c6")
+			(uuid "f524de60-5f98-4be6-97d6-ca85a3b981d1")
 		)
 		(pin "2"
-			(uuid "f0865899-3b8f-4151-9b90-c4232d7b7d46")
+			(uuid "cfba6fc5-475b-471b-bb5c-48326201f537")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3393,8 +3849,20 @@
 					(reference "R34")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R60")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R45")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3511,10 +3979,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "494e4c91-867b-4b1d-bafa-2b2a82cf0347")
+			(uuid "581aa59c-3b4e-41f1-86c5-3593337b3a83")
 		)
 		(pin "2"
-			(uuid "a50e7036-f46e-49d1-853b-9b06217a68a9")
+			(uuid "9217df84-8738-447e-a9cb-6e62c005959c")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3534,8 +4002,20 @@
 					(reference "C55")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C86")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C64")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C104")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3608,7 +4088,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e58b38d-a805-47ae-9ade-271bb27c79ba")
+			(uuid "4adeab6f-41c1-4f99-bb25-d94c6d12e51e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3628,8 +4108,20 @@
 					(reference "#PWR0112")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0141")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -3746,10 +4238,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ac717d1-b7ac-44d0-ae52-7703f93de625")
+			(uuid "f308d589-2a3a-42b7-9bd8-eecaa783a3d1")
 		)
 		(pin "2"
-			(uuid "76df24db-5cd2-4da7-9211-72d57ac6d7ab")
+			(uuid "5abda3de-ef57-4509-9391-c71113f15549")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3769,8 +4261,20 @@
 					(reference "C42")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C72")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C56")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C96")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -3842,7 +4346,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e633b8e-0254-4b79-89be-d89d01b065d6")
+			(uuid "a9d34291-74ed-453d-a945-bc20295cdb72")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3862,8 +4366,20 @@
 					(reference "#PWR0123")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0208")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -3871,7 +4387,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 101.6 106.68 0)
+		(at 101.6 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3881,7 +4397,7 @@
 		(dnp no)
 		(uuid "5166db2a-ab7e-4f68-b0d1-fc901706501e")
 		(property "Reference" "#PWR0193"
-			(at 101.6 113.03 0)
+			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +4408,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 101.6 110.49 0)
+			(at 101.6 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 106.68 0)
+			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 106.68 0)
+			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 101.6 106.68 0)
+			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +4451,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "38ce913e-032f-4243-b156-7894f727e83e")
+			(uuid "07519652-6911-4f37-ba2b-b9e89dbd13cf")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -3955,8 +4471,20 @@
 					(reference "#PWR0196")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0198")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4029,7 +4557,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f02b0255-517c-42ad-b84d-84ff51262c32")
+			(uuid "df4eb5d6-a03d-4835-939f-b7c320d1f96b")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4049,8 +4577,20 @@
 					(reference "#PWR0122")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0207")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0158")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4662,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc7f602c-574f-4924-86a0-3f75beff0d3e")
+			(uuid "4e0b2c9d-7cd8-493a-b0bc-3f487a8796c6")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4142,8 +4682,20 @@
 					(reference "#PWR0117")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0202")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4768,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "90adc849-add2-45c6-983f-64b3ad57ecb1")
+			(uuid "1ea234f0-3dd5-4187-8796-e0d857deaf85")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4236,8 +4788,20 @@
 					(reference "#PWR0108")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0128")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -4310,7 +4874,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c074ec91-97cd-4ac1-9724-dfc629ed7535")
+			(uuid "3f50cd7e-158a-443d-979e-00bad3004c12")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4330,8 +4894,20 @@
 					(reference "#PWR0116")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0169")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4979,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e28745c1-eeb6-4fac-902a-d7581c54e685")
+			(uuid "2d7cf8d7-c896-4005-85a0-ad701a6b9a71")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4423,8 +4999,20 @@
 					(reference "#PWR0110")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0130")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -4544,13 +5132,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3981e6c-5457-43fe-b8be-fdbed5805bff")
+			(uuid "4cffe5fb-4e23-49f5-b159-32264fd2db6d")
 		)
 		(pin "2"
-			(uuid "f08b5f51-0d83-4dff-a741-cda4ad416524")
+			(uuid "9dfc7da5-0514-482a-bb72-0c09d98ca853")
 		)
 		(pin "3"
-			(uuid "f8ba4040-1a13-4f4d-8c74-22b6b3a7ca3e")
+			(uuid "927454f7-f3f8-4214-9a63-2ae3921d94a1")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4570,8 +5158,20 @@
 					(reference "D6")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "D13")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "D8")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4686,10 +5286,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f12f4c9b-d43b-4f7d-a4c7-85811580a6c4")
+			(uuid "ce4345ef-4693-4b3c-8d0c-3a24cc54aefa")
 		)
 		(pin "2"
-			(uuid "d3768471-08ca-4f9c-b7fd-8eab65bc33b6")
+			(uuid "6617e48b-ca11-418a-996f-610dcd212b6e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4709,8 +5309,20 @@
 					(reference "R31")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R53")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R42")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -4827,10 +5439,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "91f0823e-b6ce-4df9-b710-14e8e9e2850d")
+			(uuid "b80118ef-39d5-4b77-b263-c2af54d95f4a")
 		)
 		(pin "2"
-			(uuid "3bb96338-1381-4978-be10-08ecca3281a7")
+			(uuid "e2cb6c68-737d-4759-8ca3-94c5337ffc1d")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4850,8 +5462,20 @@
 					(reference "R33")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R59")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R44")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -4923,7 +5547,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "abed4448-118f-4259-8ae4-731c7c566749")
+			(uuid "87b38a47-adb3-49e0-915d-db55df8d7527")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -4943,8 +5567,20 @@
 					(reference "#PWR0181")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0201")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -5059,10 +5695,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2c311be-d5d0-452b-8315-8fddd54c9a05")
+			(uuid "5b0127d8-640a-4f65-8e52-aa8d9af16b8d")
 		)
 		(pin "2"
-			(uuid "9cfe8f4d-d302-4c24-a8c1-0ecd4e080f3d")
+			(uuid "db5ff90f-abbc-4a2c-b137-8c9fb67f2961")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5082,8 +5718,126 @@
 					(reference "R35")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R61")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R46")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92bd9921-7557-44bf-b57b-e4311f764f50")
+		(property "Reference" "TP17"
+			(at 101.6 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 97.0279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 106.68 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43d2a30a-94a9-4a9c-9bae-a7ce82c57063")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "TP21")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -5198,10 +5952,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb4bcb21-8b39-4358-9e90-df03ca0fbdec")
+			(uuid "048fdeb7-00fb-4c48-a3fa-c5c9ef98b678")
 		)
 		(pin "2"
-			(uuid "9be76c12-72aa-460b-9bae-21a5351540e2")
+			(uuid "0e2ae986-4616-4081-ba78-5b03900796f0")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5221,8 +5975,20 @@
 					(reference "R32")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R56")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R43")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -5294,7 +6060,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "45ec3d1d-f4a4-49f9-a04c-8dbb0feb50ff")
+			(uuid "010a861b-89a0-4127-9aad-beb39f46c731")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5314,8 +6080,20 @@
 					(reference "#PWR0168")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0171")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0170")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -5387,7 +6165,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f410eaf-fd97-4763-ad01-a5f238812df6")
+			(uuid "90ca2125-3d05-4ec5-acba-e03af98dfc4a")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5407,8 +6185,20 @@
 					(reference "#PWR0186")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0199")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -5480,7 +6270,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "485a0600-b6db-4eb6-8a73-b3b7f5c94eb3")
+			(uuid "13ccdbfd-eeac-473a-856b-0a845b00b504")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5500,8 +6290,20 @@
 					(reference "#PWR0120")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0205")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -5572,10 +6374,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ede02856-9c54-4ee2-8769-9b5df3716ef5")
+			(uuid "72d1e02d-41de-48a6-a60b-8125ee8b27cf")
 		)
 		(pin "2"
-			(uuid "3b91af60-84dc-4141-a230-dde1c86cb0c8")
+			(uuid "a80541f7-e042-4893-8ff4-c094e25b0b01")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5595,8 +6397,20 @@
 					(reference "R30")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "R52")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "R41")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -5668,7 +6482,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f478a93-dc21-4df8-90a0-34e9fdf88d18")
+			(uuid "9d0ef1a6-c70d-4016-bf8e-b6724cb77aec")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5688,8 +6502,20 @@
 					(reference "#PWR0121")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0206")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0157")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -5806,10 +6632,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d1c6073-85e5-40a9-9a8b-29f7e8c773ad")
+			(uuid "1797f0ff-3ca0-4807-b9a4-9f086b1b2c66")
 		)
 		(pin "2"
-			(uuid "74b04f26-2e4c-4fc5-ad2c-2fe65220e204")
+			(uuid "4b33f605-92d8-4ffb-add0-91d5cd33909a")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5829,8 +6655,20 @@
 					(reference "C52")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C79")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C61")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C101")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -5901,28 +6739,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "09cd453d-a427-400c-b37e-4b9472113000")
+			(uuid "b8f4d0e9-fc03-4de8-a06a-a7e7992e7add")
 		)
 		(pin "6"
-			(uuid "4d1db515-1293-49e3-a64f-69cb7de8310c")
+			(uuid "d75cb82a-1275-473d-a484-a8cee6062f0d")
 		)
 		(pin "4"
-			(uuid "68d77e0a-0213-45b6-b365-a9195662660a")
+			(uuid "6e661272-1a37-4f8e-a24d-11b4068857c1")
 		)
 		(pin "5"
-			(uuid "6c22be48-bd3c-4158-8097-a00e572dd992")
+			(uuid "278f8749-21f9-4fa5-bec6-43b5edb2aaa3")
 		)
 		(pin "7"
-			(uuid "ca1a4d73-65e2-4746-9698-6d55eb8e4692")
+			(uuid "0dfb9ff2-f0cb-4e22-8777-8dfc1706d069")
 		)
 		(pin "8"
-			(uuid "b4b4509f-6896-4a65-8533-ea1b654dce35")
+			(uuid "3d8770e6-70bf-4455-9c9a-b6e3c432c7df")
 		)
 		(pin "1"
-			(uuid "bf7321fd-b8cb-48df-9687-df92856f3c74")
+			(uuid "9bd5ad04-065b-47ca-a903-cb6d2c6dcfa1")
 		)
 		(pin "2"
-			(uuid "af50f5aa-4133-4c65-bca9-338a4935a34d")
+			(uuid "6e5ee25b-eb69-4389-a536-ec673d631964")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -5942,8 +6780,232 @@
 					(reference "U10")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "U15")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "U12")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
+		(property "Reference" "TP9"
+			(at 215.9 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 113.5379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 220.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21c51626-8080-44ab-9ef2-2f2748f3448c")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "TP9")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce937405-045e-48b7-95e7-baf5b3664c09")
+		(property "Reference" "TP25"
+			(at 94.996 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.5679 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d204bb5-2bf0-4086-a52e-da9e754318b4")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "TP30")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "TP29")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP32")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -6015,7 +7077,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccefc232-91de-47d7-be2f-688216c747d2")
+			(uuid "40314de4-7995-4b1c-bc70-ae7042426434")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6035,8 +7097,20 @@
 					(reference "#PWR0124")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0209")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -6153,10 +7227,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d337f954-c8f3-4f46-b88f-b5a83e6fc9ce")
+			(uuid "7399a263-c87f-4f4b-9e11-6fca802e7a14")
 		)
 		(pin "2"
-			(uuid "a972f261-e42c-49bc-910e-88d0a0707008")
+			(uuid "ddb806fb-6fc6-4ca0-b15e-ece2fa2d2651")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6176,8 +7250,20 @@
 					(reference "C51")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C78")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C60")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C100")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -6250,7 +7336,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "337f5c7a-3caa-4fea-849c-5556d0b5d5eb")
+			(uuid "b40af07b-8166-4bcf-88eb-b61c0c03a00e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6270,8 +7356,20 @@
 					(reference "#PWR0119")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0204")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -6388,10 +7486,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d18260b0-1075-4502-a322-c34990e723b5")
+			(uuid "e4275b36-9ffb-43b8-8e43-23a63d1e0265")
 		)
 		(pin "2"
-			(uuid "0f49200d-d6b6-480e-abcb-0638c589368a")
+			(uuid "b5f5ffa6-b778-4b4f-a007-d60ffa1d49db")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6411,8 +7509,20 @@
 					(reference "C46")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C76")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C58")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C98")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -6484,19 +7594,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "9db8934d-49ae-48a2-b8ad-b1e0d8489f26")
+			(uuid "bf3f3b72-9405-4180-8719-51daef2887fd")
 		)
 		(pin "5"
-			(uuid "51319c53-759b-4748-b9c5-701f04ef90ce")
+			(uuid "d9125f1d-4cd8-4b23-a18d-69ace00332e1")
 		)
 		(pin "4"
-			(uuid "3dfcec64-81bf-4ece-a3d2-a79f623f897c")
+			(uuid "33a568c8-cbcc-4120-994a-01f5518798e9")
 		)
 		(pin "1"
-			(uuid "a4340274-e4f1-4cc0-8e34-e35a6509affc")
+			(uuid "227b0e0f-e8b3-419a-9d07-1f717473fe66")
 		)
 		(pin "3"
-			(uuid "098525e7-a066-4270-86fb-adf77f4c8873")
+			(uuid "c497feec-12aa-4c96-b5ec-bd308b0007bb")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6516,8 +7626,20 @@
 					(reference "U11")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "U16")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "U13")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -6634,10 +7756,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e9c5597-268e-4523-9e5e-0953c286c82f")
+			(uuid "36d30c86-5326-4a49-9017-cb7c453679bf")
 		)
 		(pin "2"
-			(uuid "f7708a6a-8f2e-46ea-98ab-97e7c8ad19aa")
+			(uuid "604a5326-77b5-4d1c-9965-817dc603aa0b")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6657,8 +7779,20 @@
 					(reference "C50")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C77")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C59")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C99")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -6775,10 +7909,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "881f5858-f23c-436e-a555-5b91459416f7")
+			(uuid "b1b7ab2b-12d8-40fc-939f-baa9858837d0")
 		)
 		(pin "2"
-			(uuid "fe34e76c-45a1-4383-819d-9e7532a307ed")
+			(uuid "8285187e-ec09-4962-9519-e72a38e39e9a")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6798,8 +7932,125 @@
 					(reference "C53")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "C80")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "C62")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C102")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb0de737-a973-4caa-8fb1-39274e1a8d24")
+		(property "Reference" "#PWR047"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4093ee79-22d1-4c6a-bdf2-58ef8304363c")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6871,7 +8122,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff06f4db-3fae-4085-85de-5290cdeaf153")
+			(uuid "36c756e0-4c13-48f1-973a-6392e10a34fe")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6891,8 +8142,20 @@
 					(reference "#PWR0115")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0167")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0146")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -6965,7 +8228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cca3adc-4e84-4c05-8f48-b0e28a15664a")
+			(uuid "9ff83824-fef2-476e-aabb-c497984e7089")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -6985,8 +8248,20 @@
 					(reference "#PWR0106")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "#PWR0126")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -7102,10 +8377,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "86bf6bd9-2447-4069-a07b-2a6cbaf4c9dd")
+			(uuid "a89e6e6e-8d82-468c-ab78-83ac0ea9f04b")
 		)
 		(pin "1"
-			(uuid "51fcae96-9372-449a-9c5b-c1dcd331caf6")
+			(uuid "56da3435-1b01-42ea-a5df-72a852abe0a1")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -7125,8 +8400,20 @@
 					(reference "J31")
 					(unit 1)
 				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
+					(reference "J33")
+					(unit 1)
+				)
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
 					(reference "J32")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "J37")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "J36")
 					(unit 1)
 				)
 			)
