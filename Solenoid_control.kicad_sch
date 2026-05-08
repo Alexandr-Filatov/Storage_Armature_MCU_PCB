@@ -2568,12 +2568,6 @@
 		(uuid "9783a50b-5d05-421b-aefd-9e0422e162c8")
 	)
 	(junction
-		(at 118.11 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98af52ee-b8eb-4238-93f4-5852d00b1559")
-	)
-	(junction
 		(at 143.51 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2584,6 +2578,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f0984a-6481-49ce-859e-6b6e1a4cc602")
+	)
+	(junction
+		(at 118.11 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdaea684-7617-4128-8bec-3f9fe6437db2")
 	)
 	(wire
 		(pts
@@ -2604,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "1d3d1f0b-2395-4ba1-b8dd-761e09e22ac0")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7046dc-c67d-47ed-88a3-6ddbcec885b1")
 	)
 	(wire
 		(pts
@@ -2707,16 +2717,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 105.41) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c83918-8b7f-4844-8d32-26af6f72738a")
-	)
-	(wire
-		(pts
 			(xy 127 105.41) (xy 128.27 105.41)
 		)
 		(stroke
@@ -2797,7 +2797,7 @@
 	)
 	(hierarchical_label "Coil_1_CTRL"
 		(shape input)
-		(at 114.3 105.41 180)
+		(at 102.87 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
