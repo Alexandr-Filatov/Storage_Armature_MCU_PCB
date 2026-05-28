@@ -21158,52 +21158,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18d9d")
+			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18d9e")
 		)
 		(pin "12"
-			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a27")
+			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a28")
 		)
 		(pin "14"
-			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c67")
+			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c68")
 		)
 		(pin "2"
-			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d89")
+			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d8a")
 		)
 		(pin "5"
-			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04941")
+			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04942")
 		)
 		(pin "11"
-			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a5")
+			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a6")
 		)
 		(pin "8"
-			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee51")
+			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee52")
 		)
 		(pin "9"
-			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bd7")
+			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bd8")
 		)
 		(pin "7"
-			(uuid "21e7685d-a615-4a54-b22a-98bf642ec069")
+			(uuid "21e7685d-a615-4a54-b22a-98bf642ec06a")
 		)
 		(pin "1"
-			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b78")
+			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b79")
 		)
 		(pin "15"
-			(uuid "35feacd9-c832-40c7-9023-599fb85985c2")
+			(uuid "35feacd9-c832-40c7-9023-599fb85985c3")
 		)
 		(pin "4"
-			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f592")
+			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f593")
 		)
 		(pin "13"
-			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d28")
+			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d29")
 		)
 		(pin "10"
-			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a52e")
+			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a52f")
 		)
 		(pin "3"
-			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db2")
+			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db3")
 		)
 		(pin "6"
-			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0b")
+			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0c")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -25400,52 +25400,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18d9d")
+			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18d9f")
 		)
 		(pin "12"
-			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a27")
+			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a29")
 		)
 		(pin "14"
-			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c67")
+			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c69")
 		)
 		(pin "2"
-			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d89")
+			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d8b")
 		)
 		(pin "5"
-			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04941")
+			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04943")
 		)
 		(pin "11"
-			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a5")
+			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a7")
 		)
 		(pin "8"
-			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee51")
+			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee53")
 		)
 		(pin "9"
-			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bd7")
+			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bd9")
 		)
 		(pin "7"
-			(uuid "21e7685d-a615-4a54-b22a-98bf642ec069")
+			(uuid "21e7685d-a615-4a54-b22a-98bf642ec06b")
 		)
 		(pin "1"
-			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b78")
+			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b7a")
 		)
 		(pin "15"
-			(uuid "35feacd9-c832-40c7-9023-599fb85985c2")
+			(uuid "35feacd9-c832-40c7-9023-599fb85985c4")
 		)
 		(pin "4"
-			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f592")
+			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f594")
 		)
 		(pin "13"
-			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d28")
+			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d2a")
 		)
 		(pin "10"
-			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a52e")
+			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a530")
 		)
 		(pin "3"
-			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db2")
+			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db4")
 		)
 		(pin "6"
-			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0b")
+			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0d")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
@@ -31146,52 +31146,52 @@
 			)
 		)
 		(pin "16"
-			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18d9d")
+			(uuid "f5f70f38-c6fc-43ba-b5cb-43d0ecd18da0")
 		)
 		(pin "12"
-			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a27")
+			(uuid "52a860b3-6d0b-4ebc-8c9e-44979b020a2a")
 		)
 		(pin "14"
-			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c67")
+			(uuid "3c933fcc-7e1a-42cd-bb7e-555d48bf4c6a")
 		)
 		(pin "2"
-			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d89")
+			(uuid "bb34e78a-e90c-4d3c-91a9-f6171bf82d8c")
 		)
 		(pin "5"
-			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04941")
+			(uuid "23d06720-36cc-4ed4-9f24-b583d1a04944")
 		)
 		(pin "11"
-			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a5")
+			(uuid "7922dd25-79c4-4ec7-a612-7f3a288417a8")
 		)
 		(pin "8"
-			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee51")
+			(uuid "cbdfe410-39d3-4f23-8eb5-bd1aff59ee54")
 		)
 		(pin "9"
-			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bd7")
+			(uuid "ee5c36c9-70bc-415d-8f09-efd1f8721bda")
 		)
 		(pin "7"
-			(uuid "21e7685d-a615-4a54-b22a-98bf642ec069")
+			(uuid "21e7685d-a615-4a54-b22a-98bf642ec06c")
 		)
 		(pin "1"
-			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b78")
+			(uuid "8a30278a-5bc6-4863-8e68-ed7acbfe0b7b")
 		)
 		(pin "15"
-			(uuid "35feacd9-c832-40c7-9023-599fb85985c2")
+			(uuid "35feacd9-c832-40c7-9023-599fb85985c5")
 		)
 		(pin "4"
-			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f592")
+			(uuid "4325fda6-dce5-4147-9fcb-2e6ce3c6f595")
 		)
 		(pin "13"
-			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d28")
+			(uuid "69c93982-37bb-4ad8-8e58-6924f1ed6d2b")
 		)
 		(pin "10"
-			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a52e")
+			(uuid "c17765c1-ad8d-489a-b9c6-3bba73d1a531")
 		)
 		(pin "3"
-			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db2")
+			(uuid "e3915c4f-9f35-42b7-86d8-cf6399e88db5")
 		)
 		(pin "6"
-			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0b")
+			(uuid "7213d2cb-b84b-45ff-911c-a496bf61ff0e")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
