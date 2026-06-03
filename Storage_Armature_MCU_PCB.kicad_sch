@@ -9835,16 +9835,16 @@
 		(uuid "d45b0385-debc-4cde-aa72-d9ca698a8d14")
 	)
 	(junction
+		(at 648.97 356.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02fa5872-6138-412a-bd76-6a096809932e")
+	)
+	(junction
 		(at 99.06 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "030a2be5-137e-4e0f-9b3d-8869af41e32d")
-	)
-	(junction
-		(at 648.97 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09ca5636-48f9-4c5e-a136-eec49c3df1e2")
 	)
 	(junction
 		(at 308.61 257.81)
@@ -9853,16 +9853,16 @@
 		(uuid "0ea7b073-3682-4238-b142-7425ab8c9d19")
 	)
 	(junction
+		(at 648.97 346.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15963034-e23a-4f43-ae99-74794fd697bf")
+	)
+	(junction
 		(at 99.06 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ac443d-caa4-403f-a4e4-4734041edb2d")
-	)
-	(junction
-		(at 648.97 341.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17332fc4-6092-4568-abcc-c950b2b23fbc")
 	)
 	(junction
 		(at 140.97 182.88)
@@ -9911,6 +9911,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2297aec0-213b-4ad5-8e4c-4f76ecf90276")
+	)
+	(junction
+		(at 648.97 351.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2584e05a-3a08-45e1-9f20-f7ac3f176b56")
+	)
+	(junction
+		(at 648.97 341.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27a88504-9b0d-4dff-a171-73a92508d5ca")
 	)
 	(junction
 		(at 170.18 510.54)
@@ -10039,12 +10051,6 @@
 		(uuid "65742261-9e37-4400-b6cb-4e4b608b24ea")
 	)
 	(junction
-		(at 648.97 351.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "686d8db0-c4d9-418b-963b-2f0b4b0dee97")
-	)
-	(junction
 		(at 676.91 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10135,6 +10141,12 @@
 		(uuid "7e75bd0d-b83f-43ef-a7db-2e88d0b8f1aa")
 	)
 	(junction
+		(at 648.97 344.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e907b2e-3cdf-42df-ab1f-7b1a3ac883ca")
+	)
+	(junction
 		(at 676.91 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10163,12 +10175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d2ea60f-a589-4215-99c8-2c54293ed240")
-	)
-	(junction
-		(at 648.97 346.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91984291-1a0c-453b-93ce-8026bd7f7d5e")
 	)
 	(junction
 		(at 115.57 193.04)
@@ -10231,12 +10237,6 @@
 		(uuid "b24431af-55db-4dbc-a0dc-1e8c3af407f3")
 	)
 	(junction
-		(at 648.97 349.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b59c7656-e99c-4e0f-aa3b-b9218e6019f0")
-	)
-	(junction
 		(at 107.95 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10249,10 +10249,10 @@
 		(uuid "c203cb44-3af4-4bb2-8caa-6ec2fee02bb7")
 	)
 	(junction
-		(at 648.97 344.17)
+		(at 648.97 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4526126-2703-42eb-a82d-fa3b5463ab8b")
+		(uuid "c3352298-d4d0-4120-b05e-b0dbec3462c3")
 	)
 	(junction
 		(at 330.2 207.01)
@@ -10309,12 +10309,6 @@
 		(uuid "cfce682c-05d3-43fd-8ee1-841ed2660791")
 	)
 	(junction
-		(at 648.97 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d058cd25-debd-4fa8-b5ee-48a99ac25f81")
-	)
-	(junction
 		(at 93.98 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10331,6 +10325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5900c84-2dea-4e4e-b0bd-fba2e0578a84")
+	)
+	(junction
+		(at 648.97 349.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e698165b-ba58-4687-a081-f00637f1f582")
 	)
 	(junction
 		(at 92.71 182.88)
@@ -10445,16 +10445,6 @@
 			(type default)
 		)
 		(uuid "00330607-5b1a-49bc-abc7-5c0702dd04d0")
-	)
-	(wire
-		(pts
-			(xy 648.97 349.25) (xy 648.97 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "005a668b-ecdd-4abc-9ffd-cc1077bc5a8e")
 	)
 	(wire
 		(pts
@@ -10658,6 +10648,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 351.79) (xy 648.97 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142f88b1-a85b-462c-bea9-7fe6e7f02c96")
+	)
+	(wire
+		(pts
 			(xy 676.91 289.56) (xy 676.91 290.83)
 		)
 		(stroke
@@ -10735,16 +10735,6 @@
 			(type default)
 		)
 		(uuid "1634812c-160e-4359-b7b4-6a587b2e4e71")
-	)
-	(wire
-		(pts
-			(xy 648.97 346.71) (xy 648.97 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c6741c-d2c2-47ba-a86c-8e5e960b323a")
 	)
 	(wire
 		(pts
@@ -11038,6 +11028,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 356.87) (xy 648.97 358.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b97d617-9eb9-429f-8688-4bcccf91a4ed")
+	)
+	(wire
+		(pts
 			(xy 85.09 237.49) (xy 86.36 237.49)
 		)
 		(stroke
@@ -11108,16 +11108,6 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 344.17) (xy 648.97 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346a2b63-a2f1-44ff-a0e9-bf5a4fa1fa8d")
-	)
-	(wire
-		(pts
 			(xy 676.91 317.5) (xy 687.07 317.5)
 		)
 		(stroke
@@ -11125,6 +11115,16 @@
 			(type default)
 		)
 		(uuid "34af164c-8a9a-4ef0-99ea-dcdd5a72b59c")
+	)
+	(wire
+		(pts
+			(xy 648.97 341.63) (xy 648.97 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35772bc3-8735-4e19-9756-967b11083e01")
 	)
 	(wire
 		(pts
@@ -11578,16 +11578,6 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 354.33) (xy 648.97 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e2279e-9ca4-4647-a091-1f73ce10d103")
-	)
-	(wire
-		(pts
 			(xy 595.63 312.42) (xy 603.25 312.42)
 		)
 		(stroke
@@ -11988,6 +11978,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 354.33) (xy 648.97 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7306891d-6581-463e-8f0e-cfc8a9a28ad3")
+	)
+	(wire
+		(pts
 			(xy 306.07 201.93) (xy 306.07 207.01)
 		)
 		(stroke
@@ -12358,6 +12358,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 346.71) (xy 648.97 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91460cc9-1796-44c1-aae0-4ed7f0e933cb")
+	)
+	(wire
+		(pts
 			(xy 330.2 222.25) (xy 330.2 207.01)
 		)
 		(stroke
@@ -12395,16 +12405,6 @@
 			(type default)
 		)
 		(uuid "935579e1-7f43-42a2-ab1b-56ed9366d19c")
-	)
-	(wire
-		(pts
-			(xy 648.97 339.09) (xy 648.97 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93646ab0-0812-41f3-bbe5-5a062f97bcbd")
 	)
 	(wire
 		(pts
@@ -12788,16 +12788,6 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 356.87) (xy 648.97 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bb33f1-6194-4dcc-8698-5d4705b48fa0")
-	)
-	(wire
-		(pts
 			(xy 676.91 316.23) (xy 676.91 317.5)
 		)
 		(stroke
@@ -12808,7 +12798,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 341.63) (xy 648.97 344.17)
+			(xy 648.97 339.09) (xy 648.97 341.63)
 		)
 		(stroke
 			(width 0)
@@ -12865,16 +12855,6 @@
 			(type default)
 		)
 		(uuid "ab17dcd9-102d-47d6-8fa4-e3af2e9ef9d7")
-	)
-	(wire
-		(pts
-			(xy 648.97 351.79) (xy 648.97 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9930bd-0a73-48fc-9e4c-b9d156ae16de")
 	)
 	(wire
 		(pts
@@ -13135,6 +13115,16 @@
 			(type default)
 		)
 		(uuid "bba033f2-8a21-49d6-a521-f25c4b9842b5")
+	)
+	(wire
+		(pts
+			(xy 648.97 349.25) (xy 648.97 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba07025-66fc-4f16-b638-28af9f890de1")
 	)
 	(wire
 		(pts
@@ -13695,6 +13685,16 @@
 			(type default)
 		)
 		(uuid "ebcf85a6-ff10-4458-b108-f67596f4c318")
+	)
+	(wire
+		(pts
+			(xy 648.97 344.17) (xy 648.97 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd22364-3755-4efa-8f37-845d26c53dc4")
 	)
 	(wire
 		(pts
@@ -14774,7 +14774,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14824,6 +14824,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 676.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 676.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 676.91 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15071,7 +15104,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP3338AKCZ-3.3RL7"
+		(property "Value" ""
 			(at 140.97 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15104,6 +15137,28 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(at 140.97 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "ADP3338AKCZ-3.3RL7"
+			(at 140.97 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Linear Regulator"
 			(at 140.97 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -15435,7 +15490,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP3338AKCZ-3.3RL7"
+		(property "Value" ""
 			(at 110.49 336.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15468,6 +15523,28 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(at 110.49 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "ADP3338AKCZ-3.3RL7"
+			(at 110.49 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Linear Regulator"
 			(at 110.49 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -15659,7 +15736,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15719,6 +15796,39 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 676.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 676.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5f9162b-88c6-4303-8236-bdcfb5f2d1ee")
 		)
@@ -15752,7 +15862,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 283.21 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -15786,6 +15896,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 280.67 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 280.67 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -15880,6 +16012,17 @@
 		)
 		(property "Product Name" "APM32F405RGT6"
 			(at 575.31 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "MCU"
+			(at 575.31 307.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16255,7 +16398,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 501.65 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -16313,7 +16456,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 285.75 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16347,6 +16490,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 283.21 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 283.21 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 283.21 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16460,7 +16625,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 170.18 502.92 0)
 			(hide yes)
 			(show_name no)
@@ -16580,7 +16745,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16630,6 +16795,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 676.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 676.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 676.91 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16740,7 +16938,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 124.46 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16799,7 +16997,7 @@
 				)
 			)
 		)
-		(property "Value" "TD301MCANFD"
+		(property "Value" ""
 			(at 250.19 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16832,6 +17030,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "TD301MCANFD"
+			(at 250.19 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "CAN Transceiver"
 			(at 250.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16961,7 +17181,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 676.91 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -17161,7 +17381,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 612.14 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -17221,7 +17441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBLC6-2P6"
+		(property "Value" ""
 			(at 627.7611 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -17259,6 +17479,28 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 626.11 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "USBLC6-2P6"
+			(at 626.11 302.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "ESD protection"
 			(at 626.11 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -17511,7 +17753,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 687.07 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -17792,7 +18034,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 687.07 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -17912,7 +18154,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -17962,6 +18204,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 676.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 676.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 676.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18081,7 +18356,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
+		(property "Product Name" "DS1073-01-2x2MR3T6"
 			(at 325.12 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -18268,16 +18543,6 @@
 				)
 			)
 		)
-		(property "Purpose" "SWD"
-			(at 653.796 301.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description P/N" "Connector"
 			(at 650.24 302.26 0)
 			(hide yes)
@@ -18289,9 +18554,19 @@
 				)
 			)
 		)
-		(property "Product Name" "PLS-4"
+		(property "Product Name" "KLS1-207-1-04-S"
 			(at 650.24 302.26 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "SWD"
+			(at 650.24 307.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18385,6 +18660,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Resistor SMD"
+			(at 137.16 505.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d9004fc-c632-4530-8b59-2667f36f815e")
 		)
@@ -18455,6 +18741,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 365.76 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 365.76 415.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18545,6 +18842,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 135.89 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fbe79f5d-7039-47eb-96dd-4f830f25e4c4")
 		)
@@ -18624,6 +18932,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Resistor SMD"
+			(at 365.76 424.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5afd5d7a-b802-4bb5-b526-04405a5fd35c")
 		)
@@ -18683,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "EEUFR1H331L"
+		(property "Datasheet" ""
 			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -18695,6 +19014,50 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 140.97 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Polarized capacitor"
+			(at 140.97 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "EEUFR1H331L"
+			(at 140.97 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 140.97 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 140.97 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -19103,7 +19466,7 @@
 				)
 			)
 		)
-		(property "Value" "20N06"
+		(property "Value" ""
 			(at 101.346 207.518 90)
 			(hide yes)
 			(show_name no)
@@ -19163,6 +19526,28 @@
 		)
 		(property "Product Name" "20N06"
 			(at 101.6 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 101.6 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 101.6 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19404,7 +19789,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 156.845 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -19524,7 +19909,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19574,6 +19959,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 676.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 676.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 676.91 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19884,7 +20302,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 161.29 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19943,7 +20361,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-247"
+		(property "Value" ""
 			(at 148.59 482.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19979,6 +20397,28 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 148.59 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LTV-247"
+			(at 148.59 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Photocoupler"
 			(at 148.59 488.95 0)
 			(hide yes)
 			(show_name no)
@@ -20213,7 +20653,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -20306,6 +20746,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 115.57 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -20420,7 +20871,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 687.07 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -20512,6 +20963,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 467.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
+			(at 137.16 467.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20857,7 +21319,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 170.18 508 0)
 			(hide yes)
 			(show_name no)
@@ -20993,7 +21455,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 365.76 405.13 0)
 			(hide yes)
 			(show_name no)
@@ -21027,6 +21489,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 365.76 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 365.76 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 365.76 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -21140,7 +21624,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 280.67 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21265,7 +21749,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 223.52 254 0)
 			(hide yes)
 			(show_name no)
@@ -21401,7 +21885,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 285.75 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -21435,6 +21919,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 283.21 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 283.21 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 283.21 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -21778,7 +22284,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 612.14 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -21949,6 +22455,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
 			(at 121.92 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -22152,7 +22669,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-247"
+		(property "Value" ""
 			(at 148.59 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22188,6 +22705,28 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 148.59 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LTV-247"
+			(at 148.59 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Photocoupler"
 			(at 148.59 508 0)
 			(hide yes)
 			(show_name no)
@@ -22321,6 +22860,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 83.82 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1e6f592-790e-49bf-83fa-d9965b420eab")
 		)
@@ -22358,7 +22908,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-MSMF050/30X-2"
+		(property "Value" ""
 			(at 82.55 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -22392,6 +22942,28 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 82.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MF-MSMF050/30X-2"
+			(at 82.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Fuse SMD"
 			(at 82.55 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22503,7 +23075,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 276.86 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -22918,7 +23490,7 @@
 				)
 			)
 		)
-		(property "Value" "WRB2403S-3WR2"
+		(property "Value" ""
 			(at 118.11 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22952,6 +23524,28 @@
 		)
 		(property "Description" ""
 			(at 119.38 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "WRB2403S-3WR2"
+			(at 118.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "DC/DC"
+			(at 118.11 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23090,7 +23684,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "16M"
 			(at 501.015 287.655 0)
 			(hide yes)
 			(show_name no)
@@ -23376,7 +23970,7 @@
 				)
 			)
 		)
-		(property "Value" "20N06"
+		(property "Value" ""
 			(at 131.064 207.518 90)
 			(hide yes)
 			(show_name no)
@@ -23564,7 +24158,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BZT52C10"
+		(property "Value" ""
 			(at 115.824 195.072 90)
 			(hide yes)
 			(show_name no)
@@ -23622,6 +24216,28 @@
 		)
 		(property "Product Name" "BZT52C10"
 			(at 115.57 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 115.57 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 115.57 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23869,6 +24485,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 86.36 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b508b31-cb2e-48f6-b6e4-c10b43efd73f")
 		)
@@ -23960,16 +24587,6 @@
 				)
 			)
 		)
-		(property "Purpose" "+24V"
-			(at 77.216 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description P/N" "Connector"
 			(at 81.28 193.04 0)
 			(hide yes)
@@ -23981,7 +24598,18 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
+		(property "Product Name" "DS1073-01-2x2MR3T6"
+			(at 81.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "+24V"
 			(at 81.28 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -24099,7 +24727,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 612.14 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -24224,7 +24852,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 163.83 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -24504,7 +25132,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 676.91 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -24762,6 +25390,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Capacitor SMD 50V"
+			(at 99.06 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be42be00-9dfb-4d3c-a4af-0512adb294c3")
 		)
@@ -24865,7 +25504,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 127 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -25067,7 +25706,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 544.83 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -25747,7 +26386,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 160.02 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -25950,7 +26589,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 687.07 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -26228,7 +26867,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 612.14 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -26508,7 +27147,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 544.83 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -26644,7 +27283,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-247"
+		(property "Value" ""
 			(at 148.59 463.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26680,6 +27319,28 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 148.59 469.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LTV-247"
+			(at 148.59 469.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Photocoupler"
 			(at 148.59 469.9 0)
 			(hide yes)
 			(show_name no)
@@ -26768,7 +27429,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 612.14 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -26802,6 +27463,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 612.14 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 612.14 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 612.14 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -26891,6 +27574,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Resistor SMD"
+			(at 137.16 486.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "282d2fc9-d79f-4ed4-ba7a-a94f2d59b61f")
 		)
@@ -26928,7 +27622,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-MSMF020"
+		(property "Value" ""
 			(at 78.74 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -26962,6 +27656,28 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 78.74 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MF-MSMF020"
+			(at 78.74 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Fuse SMD"
 			(at 78.74 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -27075,7 +27791,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 529.59 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -27118,7 +27834,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -27168,6 +27884,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 676.91 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 676.91 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 676.91 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -27355,7 +28104,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 165.1 483.87 0)
 			(hide yes)
 			(show_name no)
@@ -27557,7 +28306,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 538.48 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -27759,7 +28508,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "ESD Diode"
 			(at 303.53 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -27976,7 +28725,7 @@
 				)
 			)
 		)
-		(property "Value" "ERROR"
+		(property "Value" ""
 			(at 99.06 480.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28009,6 +28758,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "ERROR"
+			(at 97.79 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 97.79 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x3MR2T6"
+			(at 97.79 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
 			(at 97.79 486.41 0)
 			(hide yes)
 			(show_name no)
@@ -28068,7 +28861,7 @@
 				)
 			)
 		)
-		(property "Value" "TD301D485H-A"
+		(property "Value" ""
 			(at 250.19 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28101,6 +28894,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "TD301D485H-A"
+			(at 250.19 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "RS485 Transciever"
 			(at 250.19 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -28306,7 +29121,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 160.02 469.9 0)
 			(hide yes)
 			(show_name no)
@@ -28462,7 +29277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "LQH32CN6R8M53L"
+		(property "Datasheet" ""
 			(at 92.71 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -28474,6 +29289,50 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 92.71 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 92.71 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LQH32CN6R8M53L"
+			(at 92.71 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 92.71 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 92.71 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -28599,7 +29458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ33A"
+		(property "Value" ""
 			(at 94.996 194.564 90)
 			(hide yes)
 			(show_name no)
@@ -28635,6 +29494,50 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 92.71 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "SMCJ33A"
+			(at 92.71 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 92.71 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 92.71 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Supressor"
+			(at 92.71 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28977,7 +29880,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 274.32 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -29036,7 +29939,7 @@
 				)
 			)
 		)
-		(property "Value" "B2405S-1WR3"
+		(property "Value" ""
 			(at 105.41 290.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29069,6 +29972,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "B2405S-1WR3"
+			(at 105.41 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "DC/DC"
 			(at 105.41 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -29156,6 +30081,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 93.98 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -29301,7 +30237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "LQH32CN6R8M53L"
+		(property "Datasheet" ""
 			(at 88.9 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -29313,6 +30249,50 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 88.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 88.9 295.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LQH32CN6R8M53L"
+			(at 88.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 88.9 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 88.9 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -29426,7 +30406,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 551.18 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -29755,7 +30735,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 96.52 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -29890,7 +30870,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
+		(property "Product Name" "DS1073-01-2x2MR3T6"
 			(at 327.66 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -29928,7 +30908,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -29988,6 +30968,39 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 676.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 676.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be81aaf2-960a-4e60-9ad0-4f2efe058a41")
 		)
@@ -30002,7 +31015,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 641.35 346.71 0)
+		(at 643.89 346.71 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30010,10 +31024,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be374bc3-739e-421f-a329-0e3210cd0afc")
 		(property "Reference" "J3"
-			(at 642.62 332.74 0)
+			(at 642.62 336.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30022,7 +31035,7 @@
 				)
 			)
 		)
-		(property "Value" "User"
+		(property "Value" ""
 			(at 642.62 335.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30032,8 +31045,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
-			(at 641.35 346.71 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
+			(at 643.89 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30044,7 +31057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 641.35 346.71 0)
+			(at 643.89 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30055,7 +31068,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 641.35 346.71 0)
+			(at 643.89 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "User"
+			(at 642.62 359.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 643.89 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "KLS1-207-2-16-S"
+			(at 643.89 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 643.89 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +31267,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 676.91 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -30491,7 +31547,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 283.21 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -30616,7 +31672,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 146.685 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -30895,7 +31951,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 223.52 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -31064,7 +32120,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor SMD 50V"
 			(at 107.95 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -31097,7 +32153,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 107.95 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -31109,6 +32165,17 @@
 			)
 		)
 		(property "Product Name" ""
+			(at 107.95 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 107.95 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -31155,7 +32222,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 283.21 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -31189,6 +32256,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 280.67 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 280.67 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 280.67 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -31302,7 +32391,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 228.6 254 0)
 			(hide yes)
 			(show_name no)
@@ -31427,7 +32516,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 501.65 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -31470,7 +32559,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -31530,6 +32619,39 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 676.91 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 676.91 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 676.91 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39a3f32c-6332-4fbc-a04f-2d55866688e5")
 		)
@@ -31563,7 +32685,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Small_Bridged"
+		(property "Value" ""
 			(at 612.14 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -31597,6 +32719,28 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 612.14 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Jumper"
+			(at 612.14 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1027-2ABN0"
 			(at 612.14 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -31711,7 +32855,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 676.91 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -31836,7 +32980,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 228.6 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -31917,7 +33061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ACM2520-301-2P-T002"
+		(property "Datasheet" ""
 			(at 290.83 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -31929,6 +33073,50 @@
 			)
 		)
 		(property "Description" "Coupled inductor, small symbol"
+			(at 290.83 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 290.83 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "ACM2520-301-2P-T002"
+			(at 290.83 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 290.83 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 290.83 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -32202,7 +33390,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 153.67 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -32327,7 +33515,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 552.45 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -32530,7 +33718,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 165.1 488.95 0)
 			(hide yes)
 			(show_name no)
@@ -32589,7 +33777,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-247"
+		(property "Value" ""
 			(at 148.59 520.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32625,6 +33813,28 @@
 			)
 		)
 		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 148.59 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "LTV-247"
+			(at 148.59 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Photocoupler"
 			(at 148.59 527.05 0)
 			(hide yes)
 			(show_name no)
@@ -33136,7 +34346,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor SMD"
+			(at 115.57 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 115.57 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 115.57 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 115.57 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
 			(at 115.57 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -33260,7 +34514,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
+		(property "Product Name" "DS1073-01-2x2MR3T6"
 			(at 327.66 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -33337,7 +34591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ACM2520-301-2P-T002"
+		(property "Datasheet" ""
 			(at 293.37 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -33349,6 +34603,50 @@
 			)
 		)
 		(property "Description" "Coupled inductor, small symbol"
+			(at 293.37 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Inductor SMD"
+			(at 293.37 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "ACM2520-301-2P-T002"
+			(at 293.37 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 293.37 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 293.37 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -33545,7 +34843,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 529.59 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -33912,7 +35210,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x2-MVT6"
+		(property "Product Name" "DS1073-01-2x2MR3T6"
 			(at 325.12 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -34186,7 +35484,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 636.27 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -34541,7 +35839,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 636.27 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -34744,7 +36042,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 283.21 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -35408,7 +36706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch/Solenoid_control.kicad_sch"
 			(at 695.96 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35520,7 +36818,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch/Solenoid_control.kicad_sch"
 			(at 695.96 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35632,7 +36930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch/Solenoid_control.kicad_sch"
 			(at 695.96 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35856,7 +37154,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch/Solenoid_control.kicad_sch"
 			(at 695.96 183.4646 0)
 			(show_name no)
 			(do_not_autoplace no)

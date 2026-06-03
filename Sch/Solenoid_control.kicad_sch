@@ -2827,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Value" "RSCD06D3"
+		(property "Value" ""
 			(at 152.4 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,6 +2863,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "RSCD06D3"
+			(at 152.4 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Relay"
 			(at 152.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3245,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3382,7 +3404,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4173,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 124.46 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4298,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x1-MVT6"
+		(property "Product Name" "DS1073-01-2x1MR2T6"
 			(at 184.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5091,7 +5113,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5252,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-SM075/60-2"
+		(property "Value" ""
 			(at 163.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5286,6 +5308,28 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "MF-SM075/60-2"
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Fuse SMD"
 			(at 163.83 93.98 0)
 			(hide yes)
 			(show_name no)

@@ -2564,7 +2564,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2614,6 +2614,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 215.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 215.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 215.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 215.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2825,6 +2858,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
 			(at 101.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3176,7 +3220,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3297,6 +3341,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
 			(at 101.6 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3437,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3557,6 +3612,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Resistor SMD"
+			(at 110.49 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +3869,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 160.02 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 205.74 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4215,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 105.41 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5263,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5416,7 +5482,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 160.02 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -5672,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5743,7 +5809,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5793,6 +5859,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 101.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5929,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Resistor SMD"
 			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6373,6 +6472,17 @@
 				)
 			)
 		)
+		(property "Description P/N" "Resistor SMD"
+			(at 110.49 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72d1e02d-41de-48a6-a60b-8125ee8b27cf")
 		)
@@ -6609,7 +6719,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 172.72 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -6695,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Value" "NSI1200"
+		(property "Value" ""
 			(at 136.652 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,6 +6838,28 @@
 			)
 		)
 		(property "Description" "Fully-differential isolated amplifier, ±250-mV input, fixed gain = 8, peak isolation voltage 4250V, transient immunity 10kV/us, UL1577/VDE V 0884-10 approved, SOIC-8"
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "NSI1200"
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Digital Isolator"
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +6937,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6865,6 +6997,39 @@
 				)
 			)
 		)
+		(property "Product Name" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21c51626-8080-44ab-9ef2-2f2748f3448c")
 		)
@@ -6911,7 +7076,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6961,6 +7126,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" ""
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7204,7 +7402,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7463,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 116.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7549,7 +7747,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA333"
+		(property "Value" ""
 			(at 185.928 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7583,6 +7781,28 @@
 			)
 		)
 		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "OPA333"
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Op-Amp"
 			(at 182.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7733,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 140.97 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7886,7 +8106,7 @@
 				)
 			)
 		)
-		(property "Description P/N" ""
+		(property "Description P/N" "Capacitor SMD 50V"
 			(at 172.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8365,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Product Name" "DS1073-01-2x1-MVT6"
+		(property "Product Name" "DS1073-01-2x1MR2T6"
 			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
