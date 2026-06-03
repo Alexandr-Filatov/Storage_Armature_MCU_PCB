@@ -35352,7 +35352,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 438.15 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35408,7 +35408,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
 			(at 695.96 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35464,7 +35464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 488.95 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35520,7 +35520,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
 			(at 695.96 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35576,7 +35576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 387.35 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35632,7 +35632,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
 			(at 695.96 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35688,7 +35688,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 539.75 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35744,7 +35744,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 641.35 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35800,7 +35800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 590.55 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35856,7 +35856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Solenoid_control.kicad_sch"
+		(property "Sheetfile" "Sch\\Solenoid_control.kicad_sch"
 			(at 695.96 183.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35912,7 +35912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 742.95 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35968,7 +35968,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Measure.kicad_sch"
 			(at 692.15 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)

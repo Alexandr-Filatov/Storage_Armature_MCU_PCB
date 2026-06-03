@@ -530,7 +530,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/ab6f5b77-9142-40d3-af43-af498dd8c2bd")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -786,7 +786,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -937,7 +937,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1160,7 +1160,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/510def3f-5835-46f7-a2c2-b93bc1ff6444")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1311,7 +1311,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1510,7 +1510,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/baba3888-76e7-47bd-80f0-4406401db18b")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2557,7 +2557,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2906,7 +2906,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3389,7 +3389,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3933,7 +3933,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/345fbc93-81e9-4aa3-8a46-3203a4d86703")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4261,7 +4261,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4407,7 +4407,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4605,7 +4605,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4924,7 +4924,7 @@
 		)
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5294,7 +5294,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5494,7 +5494,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/3acc35a9-5eb1-4e3a-b6ca-6671882d9725")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6022,7 +6022,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6220,7 +6220,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6371,7 +6371,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6718,7 +6718,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6864,7 +6864,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7625,7 +7625,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8174,7 +8174,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8372,7 +8372,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8518,7 +8518,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8669,7 +8669,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8892,7 +8892,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/750f69df-2215-4df6-afcd-52a09ab98d0f")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9094,7 +9094,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9468,7 +9468,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9940,7 +9940,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10138,7 +10138,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/510def3f-5835-46f7-a2c2-b93bc1ff6444")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10336,7 +10336,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12507,7 +12507,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12730,7 +12730,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12928,7 +12928,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13126,7 +13126,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13394,7 +13394,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13592,7 +13592,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13738,7 +13738,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14155,7 +14155,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/baba3888-76e7-47bd-80f0-4406401db18b")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14604,7 +14604,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14827,7 +14827,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14973,7 +14973,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15171,7 +15171,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15317,7 +15317,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15706,7 +15706,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15857,7 +15857,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16452,7 +16452,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16650,7 +16650,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17565,7 +17565,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17711,7 +17711,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18084,7 +18084,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18284,7 +18284,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/8642879f-9513-4c01-a088-6506f18016dc")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18539,7 +18539,7 @@
 		)
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19313,7 +19313,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/345fbc93-81e9-4aa3-8a46-3203a4d86703")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19589,7 +19589,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19739,7 +19739,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/f6f01f59-7f87-4d94-a2a8-f459a312caa0")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20033,7 +20033,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20231,7 +20231,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20764,7 +20764,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21227,7 +21227,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/92b288ef-d08a-4025-bcbf-9c1f48faa23a")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21549,7 +21549,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/ab6f5b77-9142-40d3-af43-af498dd8c2bd")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21753,7 +21753,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22126,7 +22126,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22354,7 +22354,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/345fbc93-81e9-4aa3-8a46-3203a4d86703")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22940,7 +22940,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/750f69df-2215-4df6-afcd-52a09ab98d0f")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23189,7 +23189,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24044,7 +24044,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24190,7 +24190,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24390,7 +24390,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/e9720f9d-0598-444b-b03a-ea5223685e8e")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24648,7 +24648,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/3acc35a9-5eb1-4e3a-b6ca-6671882d9725")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24904,7 +24904,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25644,7 +25644,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25970,7 +25970,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26287,7 +26287,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26487,7 +26487,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/6dd1eed0-ac11-4b33-8749-19bb17d8a7c3")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27070,7 +27070,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27241,7 +27241,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27811,7 +27811,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28207,7 +28207,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28353,7 +28353,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29440,7 +29440,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/6dd1eed0-ac11-4b33-8749-19bb17d8a7c3")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29666,7 +29666,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29866,7 +29866,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/3acc35a9-5eb1-4e3a-b6ca-6671882d9725")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30124,7 +30124,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/ab6f5b77-9142-40d3-af43-af498dd8c2bd")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30380,7 +30380,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30702,7 +30702,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31447,7 +31447,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31591,7 +31591,7 @@
 			)
 		)
 		(property ki_fp_filters "SOP*4.4x10.4mm*P1.27mm*")
-		(path "/90ee801b-602a-48fa-a66a-fac9cb32168f")
+		(path "/dc42303f-187a-4ed9-99a5-abe3c736d639")
 		(sheetname "/")
 		(sheetfile "Storage_Armature_MCU_PCB.kicad_sch")
 		(units
@@ -32039,7 +32039,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32366,7 +32366,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32589,7 +32589,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32881,7 +32881,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33551,7 +33551,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33751,7 +33751,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/ab6f5b77-9142-40d3-af43-af498dd8c2bd")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34184,7 +34184,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34334,7 +34334,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/f6f01f59-7f87-4d94-a2a8-f459a312caa0")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35356,7 +35356,7 @@
 		(property ki_fp_filters "Finder*34.81*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/0112fb21-d067-4209-972f-e3de229894c6")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35653,7 +35653,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36051,7 +36051,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/8642879f-9513-4c01-a088-6506f18016dc")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36307,7 +36307,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36458,7 +36458,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36683,7 +36683,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/3acc35a9-5eb1-4e3a-b6ca-6671882d9725")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36887,7 +36887,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37276,7 +37276,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37422,7 +37422,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37621,7 +37621,7 @@
 		)
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/dff585ad-c5b8-4572-8b4d-ad459335272a")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37963,7 +37963,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/f6f01f59-7f87-4d94-a2a8-f459a312caa0")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38702,7 +38702,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39158,7 +39158,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39426,7 +39426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39624,7 +39624,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39968,7 +39968,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/750f69df-2215-4df6-afcd-52a09ab98d0f")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40165,7 +40165,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40363,7 +40363,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41039,7 +41039,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41460,7 +41460,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/510def3f-5835-46f7-a2c2-b93bc1ff6444")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41606,7 +41606,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41757,7 +41757,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41928,7 +41928,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42079,7 +42079,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42250,7 +42250,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42948,7 +42948,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43123,7 +43123,7 @@
 		(property ki_fp_filters "Finder*34.81*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/0112fb21-d067-4209-972f-e3de229894c6")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43952,7 +43952,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/e9720f9d-0598-444b-b03a-ea5223685e8e")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44161,7 +44161,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44385,7 +44385,7 @@
 		)
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/dff585ad-c5b8-4572-8b4d-ad459335272a")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -44775,7 +44775,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45268,7 +45268,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45588,7 +45588,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/92659a89-1ea9-4fdb-8943-384552423605")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45788,7 +45788,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/8642879f-9513-4c01-a088-6506f18016dc")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45992,7 +45992,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46593,7 +46593,7 @@
 		)
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47359,7 +47359,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47748,7 +47748,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47898,7 +47898,7 @@
 		(property ki_fp_filters "Finder*34.81*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/0112fb21-d067-4209-972f-e3de229894c6")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -48425,7 +48425,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/e9720f9d-0598-444b-b03a-ea5223685e8e")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -48683,7 +48683,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/6dd1eed0-ac11-4b33-8749-19bb17d8a7c3")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -48961,7 +48961,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/92b288ef-d08a-4025-bcbf-9c1f48faa23a")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49283,7 +49283,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/8642879f-9513-4c01-a088-6506f18016dc")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49492,7 +49492,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49866,7 +49866,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50571,7 +50571,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50742,7 +50742,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51063,7 +51063,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51261,7 +51261,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51412,7 +51412,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51634,7 +51634,7 @@
 		)
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52058,7 +52058,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/6dd1eed0-ac11-4b33-8749-19bb17d8a7c3")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52284,7 +52284,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52482,7 +52482,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/7a738ebc-7975-4abc-a554-6cd56df77f69")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -52679,7 +52679,7 @@
 		)
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53054,7 +53054,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53597,7 +53597,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53795,7 +53795,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53993,7 +53993,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -54421,7 +54421,7 @@
 		)
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/dff585ad-c5b8-4572-8b4d-ad459335272a")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -54811,7 +54811,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/92b288ef-d08a-4025-bcbf-9c1f48faa23a")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55131,7 +55131,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/92f72c19-9ca9-4cb9-a119-b28428851f5f")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55328,7 +55328,7 @@
 		)
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55702,7 +55702,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/f6f01f59-7f87-4d94-a2a8-f459a312caa0")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55996,7 +55996,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/750f69df-2215-4df6-afcd-52a09ab98d0f")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56344,7 +56344,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56597,7 +56597,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/345fbc93-81e9-4aa3-8a46-3203a4d86703")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56873,7 +56873,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57246,7 +57246,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/dee3d990-4e5e-453b-82af-73f7603d53a8")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57677,7 +57677,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57848,7 +57848,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/3419aafb-0ba6-4e94-a389-7def8f19f0d5")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57994,7 +57994,7 @@
 		(property ki_fp_filters "SOIC*7.5x5.85mm*P1.27mm*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/bda0727a-2b25-4b00-b1bf-ff036e28b578")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -58664,7 +58664,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -58887,7 +58887,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -59085,7 +59085,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -59284,7 +59284,7 @@
 		)
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/dff585ad-c5b8-4572-8b4d-ad459335272a")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -60098,7 +60098,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/e9720f9d-0598-444b-b03a-ea5223685e8e")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -60354,7 +60354,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7474189f-61b5-451d-98c9-7dd492ce5d9c/92b288ef-d08a-4025-bcbf-9c1f48faa23a")
 		(sheetname "/Solenoid_control_2/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -60622,7 +60622,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -61063,7 +61063,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -61336,7 +61336,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/ce937405-045e-48b7-95e7-baf5b3664c09")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -61559,7 +61559,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/510def3f-5835-46f7-a2c2-b93bc1ff6444")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -61903,7 +61903,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -62176,7 +62176,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -62915,7 +62915,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/e0f18be5-a497-4f78-a2fe-3867c0e55aac")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -63558,7 +63558,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -63734,7 +63734,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/022516c8-0302-46e9-bf27-bb36bbebbae5")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -63910,7 +63910,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/92bd9921-7557-44bf-b57b-e4311f764f50")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -64133,7 +64133,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/75143c17-e7ff-4528-8601-dd7c03c3b076")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -66901,7 +66901,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -67539,7 +67539,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68198,7 +68198,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -68912,7 +68912,7 @@
 		)
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -69286,7 +69286,7 @@
 		(property ki_fp_filters "Finder*34.81*")
 		(path "/23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0/0112fb21-d067-4209-972f-e3de229894c6")
 		(sheetname "/Solenoid_control_1/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -69984,7 +69984,7 @@
 		)
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70382,7 +70382,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/a3641e02-0c05-4204-9bda-a076fe6b4dee/baba3888-76e7-47bd-80f0-4406401db18b")
 		(sheetname "/Solenoid_control_3/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70720,7 +70720,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/0f95f607-0b57-471d-b879-6da6c48c2386")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -70918,7 +70918,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/458f435c-0b30-4bec-89a0-e95982cca73b")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71064,7 +71064,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/b5b0a1b8-9c36-4e02-bb96-855b22373d34")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71238,7 +71238,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f2e4ada1-f365-47a5-a07e-bc132ee8c231/baba3888-76e7-47bd-80f0-4406401db18b")
 		(sheetname "/Solenoid_control_4/")
-		(sheetfile "Solenoid_control.kicad_sch")
+		(sheetfile "Sch\\Solenoid_control.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71636,7 +71636,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -71843,7 +71843,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -72050,7 +72050,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -72737,7 +72737,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73211,7 +73211,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73418,7 +73418,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -73832,7 +73832,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74039,7 +74039,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74246,7 +74246,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -74660,7 +74660,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75074,7 +75074,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75281,7 +75281,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -75695,7 +75695,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76376,7 +76376,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76583,7 +76583,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76790,7 +76790,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -76997,7 +76997,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77204,7 +77204,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77618,7 +77618,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -77825,7 +77825,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78032,7 +78032,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78446,7 +78446,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -78653,7 +78653,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79274,7 +79274,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79481,7 +79481,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -79688,7 +79688,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80516,7 +80516,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -80990,7 +80990,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -81197,7 +81197,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -81671,7 +81671,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -81878,7 +81878,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82085,7 +82085,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82292,7 +82292,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82499,7 +82499,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -82706,7 +82706,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83120,7 +83120,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83327,7 +83327,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83534,7 +83534,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83741,7 +83741,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -83948,7 +83948,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84155,7 +84155,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84362,7 +84362,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84776,7 +84776,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -84983,7 +84983,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -85552,7 +85552,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/4638c542-d745-4985-b1cf-1087ae7bf17d")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -85759,7 +85759,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -85966,7 +85966,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cbd62b9-7c87-47a1-a565-b02aa5c85098/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_3/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86173,7 +86173,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86380,7 +86380,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86587,7 +86587,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -86794,7 +86794,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/775eef34-a29f-4248-aad4-070c6dff9083/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_1/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87208,7 +87208,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87415,7 +87415,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -87829,7 +87829,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -88036,7 +88036,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -88243,7 +88243,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8b4c8d0-07a9-46fc-baa1-03208194678e/39deea6c-59a0-4971-9e15-79388b3175db")
 		(sheetname "/Sensor_8/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -88450,7 +88450,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fdded5b5-a6c0-4030-9e39-a75869b457c5/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_7/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -88864,7 +88864,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -89963,7 +89963,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d8feeea0-7852-444e-abaf-8314df747b14/d35342c5-89c9-4813-b194-f599f38e50d8")
 		(sheetname "/Sensor_5/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90377,7 +90377,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90584,7 +90584,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/06465e94-58b4-46d5-bebd-58dc4f771485/e5759ec1-427f-4ec1-9428-3cda74ad122f")
 		(sheetname "/Sensor_2/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -90998,7 +90998,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/e10ae23f-78bf-442b-b6e1-05131406ebe1")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -91205,7 +91205,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b1c8182c-fb29-4994-9c3a-29970e43d124/bd7490a1-0114-4c56-b19f-0f107b93a7bf")
 		(sheetname "/Sensor_4/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -91412,7 +91412,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b8e5a087-7c8b-4177-a051-558409ab2265/4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
 		(sheetname "/Sensor_6/")
-		(sheetfile "Measure.kicad_sch")
+		(sheetfile "Sch/Measure.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -98225,6 +98225,262 @@
 		(uuid "efa926c0-50b6-46fa-b08f-785ffe3b0699")
 	)
 	(segment
+		(start 284.085 180.795)
+		(end 288.75 185.46)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO1")
+		(uuid "2590aebc-ecee-428c-9cae-53f195aa0783")
+	)
+	(segment
+		(start 288.75 207.5)
+		(end 295.25 214)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO1")
+		(uuid "49f401df-13bd-4f31-8399-d0a7eb48d76d")
+	)
+	(segment
+		(start 295.25 214)
+		(end 296.075 214)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO1")
+		(uuid "4de04ac3-01b9-4620-9fba-b85bbc719813")
+	)
+	(segment
+		(start 288.75 185.46)
+		(end 288.75 207.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO1")
+		(uuid "bbe12214-a383-4eb3-9b01-d45d3e8a1b55")
+	)
+	(segment
+		(start 288.25 187.5)
+		(end 288.25 207.71447)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO2")
+		(uuid "22cb68e4-0242-4703-9b0b-547289d713ea")
+	)
+	(segment
+		(start 284.085 183.335)
+		(end 288.25 187.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO2")
+		(uuid "9c81afa7-28d0-4f53-baab-d831fa265834")
+	)
+	(segment
+		(start 295.03553 214.5)
+		(end 296.075 214.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO2")
+		(uuid "ddb74178-022c-4933-91a9-1a8dda60304f")
+	)
+	(segment
+		(start 288.25 207.71447)
+		(end 295.03553 214.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO2")
+		(uuid "fa5d02e9-bd5f-4a41-b610-88949c0a88ea")
+	)
+	(segment
+		(start 294.828424 215)
+		(end 296.075 215)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO3")
+		(uuid "5d4f4cda-56a3-47a4-9547-c142e2dcb143")
+	)
+	(segment
+		(start 287.75 189.54)
+		(end 287.75 207.921576)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO3")
+		(uuid "7ee9387e-5a34-4bcb-81a7-debf1a7bf6e9")
+	)
+	(segment
+		(start 284.085 185.875)
+		(end 287.75 189.54)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO3")
+		(uuid "9dd60218-ccba-479f-95ac-97be2c6e2007")
+	)
+	(segment
+		(start 287.75 207.921576)
+		(end 294.828424 215)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO3")
+		(uuid "bfd6591c-b142-45a2-afe9-86244f095845")
+	)
+	(segment
+		(start 284.085 188.415)
+		(end 287.25 191.58)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO4")
+		(uuid "01dbbef7-ffdd-4308-812a-941651a6956d")
+	)
+	(segment
+		(start 287.25 191.58)
+		(end 287.25 208.128682)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO4")
+		(uuid "5f75f343-b7d4-4053-ab97-b5b5a0c35224")
+	)
+	(segment
+		(start 287.25 208.128682)
+		(end 294.621318 215.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO4")
+		(uuid "f1c0c4a8-65ce-4a5e-901d-8159c7308b63")
+	)
+	(segment
+		(start 294.621318 215.5)
+		(end 296.075 215.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO4")
+		(uuid "fe82600e-6fe7-4d35-9b5c-34b1cf86dc88")
+	)
+	(segment
+		(start 294.414212 216)
+		(end 296.075 216)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO5")
+		(uuid "24d77644-fcad-4c2a-b1fd-d36133f51a14")
+	)
+	(segment
+		(start 286.75 208.335788)
+		(end 294.414212 216)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO5")
+		(uuid "25cdf55f-70c3-4007-9d14-1b7eea8c2a62")
+	)
+	(segment
+		(start 284.085 190.955)
+		(end 286.75 193.62)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO5")
+		(uuid "744d68de-e6e3-4de7-b2c5-194dc66a47c1")
+	)
+	(segment
+		(start 286.75 193.62)
+		(end 286.75 208.335788)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO5")
+		(uuid "d1baacc8-de86-40d6-b9c6-262cbac4516a")
+	)
+	(segment
+		(start 286.25 195.66)
+		(end 286.25 208.542894)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO6")
+		(uuid "108b3e47-22ee-4382-ab35-48e05ff39776")
+	)
+	(segment
+		(start 284.085 193.495)
+		(end 286.25 195.66)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO6")
+		(uuid "416d2d7d-0a59-4301-9964-5312bf18dbb8")
+	)
+	(segment
+		(start 286.25 208.542894)
+		(end 294.207106 216.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO6")
+		(uuid "6a9513bf-a02f-41c1-8edc-b4b0825df9cf")
+	)
+	(segment
+		(start 294.207106 216.5)
+		(end 296.075 216.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO6")
+		(uuid "78996e59-383b-4c04-ace2-bcb1465b3d50")
+	)
+	(segment
+		(start 285.75 197.7)
+		(end 285.75 208.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO7")
+		(uuid "55d23fcf-da60-4c84-bdf6-aba0001af12b")
+	)
+	(segment
+		(start 285.75 208.75)
+		(end 294 217)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO7")
+		(uuid "5bfc6469-d370-4cda-a067-c6ac9fdc8a35")
+	)
+	(segment
+		(start 294 217)
+		(end 296.075 217)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO7")
+		(uuid "6ed9d558-e2ce-4172-a84e-79d4637fe172")
+	)
+	(segment
+		(start 284.085 196.035)
+		(end 285.75 197.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO7")
+		(uuid "8d0af015-962d-4570-a1d8-433b5bb1db07")
+	)
+	(segment
+		(start 285.25 209)
+		(end 293.75 217.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO8")
+		(uuid "42de6b17-f1c5-4083-bd19-be626721a2b7")
+	)
+	(segment
+		(start 285.25 199.74)
+		(end 285.25 209)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO8")
+		(uuid "69631d05-2279-4e6f-92b3-d79d86011f33")
+	)
+	(segment
+		(start 293.75 217.5)
+		(end 296.075 217.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO8")
+		(uuid "7102fa88-00e9-4ffb-bb4b-17e4cd82fb87")
+	)
+	(segment
+		(start 284.085 198.575)
+		(end 285.25 199.74)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "/GPIO8")
+		(uuid "8f1bbdd7-983a-4d7a-93a2-2d1906edc559")
+	)
+	(segment
 		(start 350.925 227.385)
 		(end 348.865 227.385)
 		(width 0.5)
@@ -102330,6 +102586,38 @@
 		(uuid "f8187d4a-7870-4721-8e6b-166a261a9d2a")
 	)
 	(segment
+		(start 306 113.4875)
+		(end 306 115.95)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D25-K)")
+		(uuid "0cde3d0b-f8a6-454a-bc00-dfb323e72126")
+	)
+	(segment
+		(start 306.05 106.8)
+		(end 306.05 110.4625)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL2_IN")
+		(uuid "14164c99-9c23-407c-81fb-d67ba96c05c5")
+	)
+	(segment
+		(start 306.05 110.4625)
+		(end 306 110.5125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL2_IN")
+		(uuid "6ed7ec5e-0d35-4433-b5c6-1e9710be1b8f")
+	)
+	(segment
+		(start 306 106.85)
+		(end 306.05 106.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL2_IN")
+		(uuid "f52edd44-cb15-4123-8afc-0d76b8e9e763")
+	)
+	(segment
 		(start 304 212.075)
 		(end 304 210)
 		(width 0.3)
@@ -105914,28 +106202,12 @@
 		(uuid "931bf14a-c59e-4b50-940a-a6ffe31393c8")
 	)
 	(segment
-		(start 301.75 106.9)
-		(end 301.85 106.8)
+		(start 301.75 113.4325)
+		(end 301.75 115.95)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/ERROR_LvL1_IN")
-		(uuid "0f798858-0708-4892-a181-949710d59b45")
-	)
-	(segment
-		(start 301.85 110.3575)
-		(end 301.75 110.4575)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ERROR_LvL1_IN")
-		(uuid "dea7419f-8d9a-47bb-9eec-395ce839ff07")
-	)
-	(segment
-		(start 301.85 106.8)
-		(end 301.85 110.3575)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ERROR_LvL1_IN")
-		(uuid "f1a982e0-a16c-4352-82d2-dfc6e8bebe7c")
+		(net "Net-(D24-K)")
+		(uuid "60fe774f-669e-4abc-a48c-1bed182436fc")
 	)
 	(segment
 		(start 301.75 120.25)
@@ -106448,30 +106720,6 @@
 		(layer "F.Cu")
 		(net "Net-(R94-Pad2)")
 		(uuid "e4224652-f9c6-46a7-a89a-be827c03acb2")
-	)
-	(segment
-		(start 306.05 106.8)
-		(end 306.05 110.4625)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ERROR_LvL2_IN")
-		(uuid "14164c99-9c23-407c-81fb-d67ba96c05c5")
-	)
-	(segment
-		(start 306.05 110.4625)
-		(end 306 110.5125)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ERROR_LvL2_IN")
-		(uuid "6ed7ec5e-0d35-4433-b5c6-1e9710be1b8f")
-	)
-	(segment
-		(start 306 106.85)
-		(end 306.05 106.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ERROR_LvL2_IN")
-		(uuid "f52edd44-cb15-4123-8afc-0d76b8e9e763")
 	)
 	(segment
 		(start 316.1875 272.2)
@@ -107120,6 +107368,30 @@
 		(uuid "ffc46201-b1fc-4f54-8aff-8f9b864bb043")
 	)
 	(segment
+		(start 301.75 106.9)
+		(end 301.85 106.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL1_IN")
+		(uuid "0f798858-0708-4892-a181-949710d59b45")
+	)
+	(segment
+		(start 301.85 110.3575)
+		(end 301.75 110.4575)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL1_IN")
+		(uuid "dea7419f-8d9a-47bb-9eec-395ce839ff07")
+	)
+	(segment
+		(start 301.85 106.8)
+		(end 301.85 110.3575)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/ERROR_LvL1_IN")
+		(uuid "f1a982e0-a16c-4352-82d2-dfc6e8bebe7c")
+	)
+	(segment
 		(start 310.25 106.8)
 		(end 310.25 110.5125)
 		(width 0.5)
@@ -107328,6 +107600,14 @@
 		(uuid "9851306c-8f19-4649-a158-69499cfa9995")
 	)
 	(segment
+		(start 310.25 113.4875)
+		(end 310.25 115.95)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "Net-(D26-K)")
+		(uuid "5cc6785a-8b21-4ec5-bae6-cc1cb17a4a15")
+	)
+	(segment
 		(start 367.5625 294.75)
 		(end 366.5 294.75)
 		(width 0.5)
@@ -107390,286 +107670,6 @@
 		(layer "F.Cu")
 		(net "Net-(R47-Pad1)")
 		(uuid "fe49fcbb-9f8e-4c4b-9bf3-8485d19c40bb")
-	)
-	(segment
-		(start 284.085 180.795)
-		(end 288.75 185.46)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO1")
-		(uuid "2590aebc-ecee-428c-9cae-53f195aa0783")
-	)
-	(segment
-		(start 288.75 207.5)
-		(end 295.25 214)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO1")
-		(uuid "49f401df-13bd-4f31-8399-d0a7eb48d76d")
-	)
-	(segment
-		(start 295.25 214)
-		(end 296.075 214)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO1")
-		(uuid "4de04ac3-01b9-4620-9fba-b85bbc719813")
-	)
-	(segment
-		(start 288.75 185.46)
-		(end 288.75 207.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO1")
-		(uuid "bbe12214-a383-4eb3-9b01-d45d3e8a1b55")
-	)
-	(segment
-		(start 294.828424 215)
-		(end 296.075 215)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO3")
-		(uuid "5d4f4cda-56a3-47a4-9547-c142e2dcb143")
-	)
-	(segment
-		(start 287.75 189.54)
-		(end 287.75 207.921576)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO3")
-		(uuid "7ee9387e-5a34-4bcb-81a7-debf1a7bf6e9")
-	)
-	(segment
-		(start 284.085 185.875)
-		(end 287.75 189.54)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO3")
-		(uuid "9dd60218-ccba-479f-95ac-97be2c6e2007")
-	)
-	(segment
-		(start 287.75 207.921576)
-		(end 294.828424 215)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO3")
-		(uuid "bfd6591c-b142-45a2-afe9-86244f095845")
-	)
-	(segment
-		(start 285.75 197.7)
-		(end 285.75 208.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO7")
-		(uuid "55d23fcf-da60-4c84-bdf6-aba0001af12b")
-	)
-	(segment
-		(start 285.75 208.75)
-		(end 294 217)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO7")
-		(uuid "5bfc6469-d370-4cda-a067-c6ac9fdc8a35")
-	)
-	(segment
-		(start 294 217)
-		(end 296.075 217)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO7")
-		(uuid "6ed9d558-e2ce-4172-a84e-79d4637fe172")
-	)
-	(segment
-		(start 284.085 196.035)
-		(end 285.75 197.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO7")
-		(uuid "8d0af015-962d-4570-a1d8-433b5bb1db07")
-	)
-	(segment
-		(start 284.085 188.415)
-		(end 287.25 191.58)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO4")
-		(uuid "01dbbef7-ffdd-4308-812a-941651a6956d")
-	)
-	(segment
-		(start 287.25 191.58)
-		(end 287.25 208.128682)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO4")
-		(uuid "5f75f343-b7d4-4053-ab97-b5b5a0c35224")
-	)
-	(segment
-		(start 287.25 208.128682)
-		(end 294.621318 215.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO4")
-		(uuid "f1c0c4a8-65ce-4a5e-901d-8159c7308b63")
-	)
-	(segment
-		(start 294.621318 215.5)
-		(end 296.075 215.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO4")
-		(uuid "fe82600e-6fe7-4d35-9b5c-34b1cf86dc88")
-	)
-	(segment
-		(start 288.25 187.5)
-		(end 288.25 207.71447)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO2")
-		(uuid "22cb68e4-0242-4703-9b0b-547289d713ea")
-	)
-	(segment
-		(start 284.085 183.335)
-		(end 288.25 187.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO2")
-		(uuid "9c81afa7-28d0-4f53-baab-d831fa265834")
-	)
-	(segment
-		(start 295.03553 214.5)
-		(end 296.075 214.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO2")
-		(uuid "ddb74178-022c-4933-91a9-1a8dda60304f")
-	)
-	(segment
-		(start 288.25 207.71447)
-		(end 295.03553 214.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO2")
-		(uuid "fa5d02e9-bd5f-4a41-b610-88949c0a88ea")
-	)
-	(segment
-		(start 286.25 195.66)
-		(end 286.25 208.542894)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO6")
-		(uuid "108b3e47-22ee-4382-ab35-48e05ff39776")
-	)
-	(segment
-		(start 284.085 193.495)
-		(end 286.25 195.66)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO6")
-		(uuid "416d2d7d-0a59-4301-9964-5312bf18dbb8")
-	)
-	(segment
-		(start 286.25 208.542894)
-		(end 294.207106 216.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO6")
-		(uuid "6a9513bf-a02f-41c1-8edc-b4b0825df9cf")
-	)
-	(segment
-		(start 294.207106 216.5)
-		(end 296.075 216.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO6")
-		(uuid "78996e59-383b-4c04-ace2-bcb1465b3d50")
-	)
-	(segment
-		(start 294.414212 216)
-		(end 296.075 216)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO5")
-		(uuid "24d77644-fcad-4c2a-b1fd-d36133f51a14")
-	)
-	(segment
-		(start 286.75 208.335788)
-		(end 294.414212 216)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO5")
-		(uuid "25cdf55f-70c3-4007-9d14-1b7eea8c2a62")
-	)
-	(segment
-		(start 284.085 190.955)
-		(end 286.75 193.62)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO5")
-		(uuid "744d68de-e6e3-4de7-b2c5-194dc66a47c1")
-	)
-	(segment
-		(start 286.75 193.62)
-		(end 286.75 208.335788)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO5")
-		(uuid "d1baacc8-de86-40d6-b9c6-262cbac4516a")
-	)
-	(segment
-		(start 285.25 209)
-		(end 293.75 217.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO8")
-		(uuid "42de6b17-f1c5-4083-bd19-be626721a2b7")
-	)
-	(segment
-		(start 285.25 199.74)
-		(end 285.25 209)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO8")
-		(uuid "69631d05-2279-4e6f-92b3-d79d86011f33")
-	)
-	(segment
-		(start 293.75 217.5)
-		(end 296.075 217.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO8")
-		(uuid "7102fa88-00e9-4ffb-bb4b-17e4cd82fb87")
-	)
-	(segment
-		(start 284.085 198.575)
-		(end 285.25 199.74)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "/GPIO8")
-		(uuid "8f1bbdd7-983a-4d7a-93a2-2d1906edc559")
-	)
-	(segment
-		(start 301.75 113.4325)
-		(end 301.75 115.95)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(D24-K)")
-		(uuid "60fe774f-669e-4abc-a48c-1bed182436fc")
-	)
-	(segment
-		(start 306 113.4875)
-		(end 306 115.95)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(D25-K)")
-		(uuid "0cde3d0b-f8a6-454a-bc00-dfb323e72126")
-	)
-	(segment
-		(start 310.25 113.4875)
-		(end 310.25 115.95)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(D26-K)")
-		(uuid "5cc6785a-8b21-4ec5-bae6-cc1cb17a4a15")
 	)
 	(zone
 		(net "GND")
@@ -110160,16 +110160,27 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 233.008059 218.501061) (xy 233.113223 218.514906) (xy 233.144491 218.523284) (xy 233.234918 218.56074)
-				(xy 233.262952 218.576925) (xy 233.340602 218.636509) (xy 233.363491 218.659398) (xy 233.423074 218.737048)
-				(xy 233.439259 218.765081) (xy 233.476715 218.855508) (xy 233.485093 218.886775) (xy 233.498939 218.991939)
-				(xy 233.5 219.008125) (xy 233.5 224.991874) (xy 233.498939 225.00806) (xy 233.485093 225.113224)
-				(xy 233.476715 225.144491) (xy 233.439259 225.234918) (xy 233.423074 225.262951) (xy 233.363491 225.340601)
-				(xy 233.340601 225.363491) (xy 233.262951 225.423074) (xy 233.234918 225.439259) (xy 233.144491 225.476715)
-				(xy 233.113224 225.485093) (xy 233.019398 225.497446) (xy 233.008058 225.498939) (xy 232.991874 225.5)
-				(xy 221.3745 225.5) (xy 221.307461 225.480315) (xy 221.261706 225.427511) (xy 221.2505 225.376)
-				(xy 221.2505 218.624) (xy 221.270185 218.556961) (xy 221.322989 218.511206) (xy 221.3745 218.5)
-				(xy 232.991874 218.5)
+				(xy 232.995903 218.500264) (xy 233.004033 218.500797) (xy 233.012074 218.501589) (xy 233.105173 218.513846)
+				(xy 233.121065 218.517007) (xy 233.136645 218.521181) (xy 233.151995 218.526392) (xy 233.227411 218.55763)
+				(xy 233.241953 218.564802) (xy 233.255914 218.572862) (xy 233.269401 218.581874) (xy 233.302006 218.606893)
+				(xy 233.334154 218.631561) (xy 233.346348 218.642255) (xy 233.357742 218.653649) (xy 233.368437 218.665844)
+				(xy 233.418126 218.7306) (xy 233.427137 218.744086) (xy 233.435194 218.758041) (xy 233.442368 218.772589)
+				(xy 233.473603 218.847998) (xy 233.478815 218.863351) (xy 233.482988 218.878922) (xy 233.486154 218.894836)
+				(xy 233.498409 218.987921) (xy 233.499204 218.995982) (xy 233.499734 219.00408) (xy 233.5 219.012178)
+				(xy 233.5 224.98782) (xy 233.499734 224.995919) (xy 233.499256 225.003222) (xy 233.499204 225.004016)
+				(xy 233.498409 225.012077) (xy 233.486154 225.105162) (xy 233.482988 225.121076) (xy 233.478815 225.136647)
+				(xy 233.473603 225.152) (xy 233.442368 225.227409) (xy 233.435194 225.241957) (xy 233.427137 225.255912)
+				(xy 233.418126 225.269398) (xy 233.368437 225.334154) (xy 233.357742 225.346349) (xy 233.346349 225.357742)
+				(xy 233.334154 225.368437) (xy 233.269398 225.418126) (xy 233.255912 225.427137) (xy 233.241957 225.435194)
+				(xy 233.227409 225.442368) (xy 233.152 225.473603) (xy 233.136647 225.478815) (xy 233.121076 225.482988)
+				(xy 233.105163 225.486154) (xy 233.038166 225.494975) (xy 233.019398 225.497446) (xy 233.01806 225.497622)
+				(xy 233.012063 225.498411) (xy 233.004015 225.499204) (xy 233.003484 225.499238) (xy 232.995919 225.499734)
+				(xy 232.987819 225.5) (xy 221.39233 225.5) (xy 221.357389 225.494975) (xy 221.34239 225.49057) (xy 221.327402 225.48094)
+				(xy 221.310324 225.475932) (xy 221.283644 225.452827) (xy 221.282457 225.451458) (xy 221.254977 225.396583)
+				(xy 221.253332 225.389021) (xy 221.2505 225.362668) (xy 221.2505 218.641829) (xy 221.255523 218.606893)
+				(xy 221.259927 218.591895) (xy 221.269557 218.576904) (xy 221.274567 218.559824) (xy 221.297672 218.533144)
+				(xy 221.299041 218.531957) (xy 221.35392 218.504477) (xy 221.361479 218.502833) (xy 221.387832 218.5)
+				(xy 232.987821 218.5)
 			)
 		)
 		(filled_polygon
@@ -110638,7 +110649,7 @@
 		)
 	)
 	(zone
-		(net "+24V")
+		(net "Net-(C68-Pad1)")
 		(layer "B.Cu")
 		(uuid "6027bc57-e462-4d99-9676-e6a40ee76e5c")
 		(hatch none 0.5)
@@ -110662,58 +110673,44 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 240.01406 241.505021) (xy 240.027379 241.508932) (xy 240.042379 241.518572) (xy 240.059487 241.523596)
-				(xy 240.07116 241.537068) (xy 240.086157 241.546706) (xy 240.093565 241.562926) (xy 240.10524 241.576401)
-				(xy 240.115179 241.610253) (xy 240.115183 241.610261) (xy 240.115183 241.610265) (xy 240.115525 241.612644)
-				(xy 240.110441 241.66945) (xy 240.105391 241.684622) (xy 240.103919 241.688794) (xy 240.055907 241.817517)
-				(xy 240.049501 241.877117) (xy 240.0495 241.87714) (xy 240.0495 244.122858) (xy 240.049501 244.122881)
-				(xy 240.055907 244.182481) (xy 240.106202 244.317327) (xy 240.108599 244.321057) (xy 240.108605 244.321066)
-				(xy 240.111512 244.324421) (xy 240.192454 244.432546) (xy 240.232448 244.462485) (xy 240.29518 244.509446)
-				(xy 240.296315 244.510567) (xy 240.308548 244.521029) (xy 240.313425 244.525905) (xy 240.313425 244.525906)
-				(xy 240.325225 244.537706) (xy 240.33144 244.549087) (xy 240.332462 244.550416) (xy 240.333186 244.552285)
-				(xy 240.358711 244.599027) (xy 240.357558 244.615142) (xy 240.357721 244.61556) (xy 240.357425 244.617007)
-				(xy 240.353729 244.668719) (xy 240.344302 244.681312) (xy 240.34375 244.684019) (xy 240.337394 244.69054)
-				(xy 240.311859 244.724654) (xy 240.298468 244.730483) (xy 240.294986 244.734057) (xy 240.284913 244.736384)
-				(xy 240.259572 244.747417) (xy 240.256187 244.748028) (xy 240.234161 244.75) (xy 236.579591 244.75)
-				(xy 236.544652 244.744976) (xy 236.531334 244.741065) (xy 236.472557 244.703289) (xy 236.443535 244.639732)
-				(xy 236.443533 244.639725) (xy 236.443297 244.638077) (xy 236.448857 244.579934) (xy 236.4505 244.575188)
-				(xy 236.460289 244.553752) (xy 236.512984 244.462485) (xy 236.5505 244.322475) (xy 236.5505 244.177525)
-				(xy 236.512984 244.037515) (xy 236.477178 243.975498) (xy 236.440511 243.911988) (xy 236.440506 243.911982)
-				(xy 236.373477 243.844953) (xy 236.368836 243.839022) (xy 236.367089 243.834629) (xy 236.357658 243.822029)
-				(xy 236.350167 243.808309) (xy 236.335316 243.740051) (xy 236.335445 243.738242) (xy 236.354811 243.680047)
-				(xy 236.359004 243.673523) (xy 236.375621 243.652902) (xy 236.440509 243.588015) (xy 236.512984 243.462485)
-				(xy 236.5505 243.322475) (xy 236.5505 243.177525) (xy 236.512984 243.037515) (xy 236.440509 242.911985)
-				(xy 236.378807 242.850283) (xy 236.368627 242.838755) (xy 236.366438 242.835942) (xy 236.364391 242.830752)
-				(xy 236.358107 242.821774) (xy 236.357653 242.822023) (xy 236.356982 242.820794) (xy 236.357299 242.82062)
-				(xy 236.353033 242.814524) (xy 236.347726 242.803736) (xy 236.341834 242.773563) (xy 236.340802 242.770945)
-				(xy 236.341064 242.769618) (xy 236.335309 242.740141) (xy 236.335626 242.735716) (xy 236.360051 242.670254)
-				(xy 236.371629 242.656894) (xy 236.426398 242.602126) (xy 237.3495 242.602126) (xy 237.3495 243.522876)
-				(xy 237.349659 243.524806) (xy 237.349885 243.526454) (xy 237.355907 243.582482) (xy 237.357971 243.588015)
-				(xy 237.406202 243.717328) (xy 237.406206 243.717335) (xy 237.449086 243.774616) (xy 237.49245 243.832542)
-				(xy 237.492452 243.832544) (xy 237.492455 243.832547) (xy 237.607664 243.918793) (xy 237.607671 243.918797)
-				(xy 237.742517 243.969091) (xy 237.742516 243.969091) (xy 237.749444 243.969835) (xy 237.802127 243.9755)
-				(xy 239.197872 243.975499) (xy 239.257483 243.969091) (xy 239.392331 243.918796) (xy 239.507546 243.832546)
-				(xy 239.593796 243.717331) (xy 239.644091 243.582483) (xy 239.6505 243.522873) (xy 239.650499 242.602128)
-				(xy 239.644091 242.542517) (xy 239.593796 242.407669) (xy 239.593795 242.407668) (xy 239.593793 242.407664)
-				(xy 239.593782 242.407649) (xy 239.591392 242.403929) (xy 239.591391 242.403928) (xy 239.588489 242.400579)
-				(xy 239.507547 242.292455) (xy 239.507544 242.292452) (xy 239.507542 242.29245) (xy 239.449616 242.249086)
-				(xy 239.392335 242.206206) (xy 239.392332 242.206204) (xy 239.39233 242.206203) (xy 239.392328 242.206202)
-				(xy 239.257482 242.155908) (xy 239.257483 242.155908) (xy 239.197883 242.149501) (xy 239.197881 242.1495)
-				(xy 239.197873 242.1495) (xy 239.197864 242.1495) (xy 239.196841 242.1495) (xy 237.802123 242.1495)
-				(xy 237.800192 242.149659) (xy 237.798545 242.149885) (xy 237.742516 242.155908) (xy 237.607666 242.206204)
-				(xy 237.607665 242.206205) (xy 237.492456 242.29245) (xy 237.49245 242.292456) (xy 237.406205 242.407665)
-				(xy 237.406203 242.407668) (xy 237.355907 242.542516) (xy 237.351017 242.588017) (xy 237.3495 242.602126)
-				(xy 236.426398 242.602126) (xy 236.440507 242.588017) (xy 236.440507 242.588016) (xy 236.440509 242.588015)
-				(xy 236.512984 242.462485) (xy 236.5505 242.322475) (xy 236.5505 242.177525) (xy 236.512984 242.037515)
-				(xy 236.440509 241.911985) (xy 236.338015 241.809491) (xy 236.338013 241.80949) (xy 236.338011 241.809488)
-				(xy 236.283281 241.77789) (xy 236.283278 241.777888) (xy 236.260162 241.764541) (xy 236.260159 241.764538)
-				(xy 236.232421 241.742725) (xy 236.225515 241.735482) (xy 236.2274 241.733684) (xy 236.218957 241.721324)
-				(xy 236.211948 241.713973) (xy 236.211166 241.709919) (xy 236.19505 241.686325) (xy 236.193089 241.616483)
-				(xy 236.222653 241.56751) (xy 236.22065 241.565808) (xy 236.221113 241.565263) (xy 236.225912 241.562111)
-				(xy 236.229199 241.556668) (xy 236.229202 241.556664) (xy 236.231354 241.554691) (xy 236.233556 241.557093)
-				(xy 236.279517 241.526916) (xy 236.287403 241.524524) (xy 236.299196 241.521571) (xy 236.300776 241.521256)
-				(xy 236.311082 241.519206) (xy 236.323104 241.517422) (xy 236.49094 241.500892) (xy 236.496952 241.500448)
-				(xy 236.503081 241.500147) (xy 236.509143 241.5) (xy 239.979128 241.5)
+				(xy 240.996917 241.500147) (xy 241.003047 241.500448) (xy 241.009058 241.500892) (xy 241.176886 241.517421)
+				(xy 241.18891 241.519205) (xy 241.200792 241.521568) (xy 241.212584 241.524521) (xy 241.365181 241.57081)
+				(xy 241.376629 241.574907) (xy 241.387833 241.579548) (xy 241.398818 241.584744) (xy 241.521116 241.650114)
+				(xy 241.539421 241.659898) (xy 241.549857 241.666153) (xy 241.559946 241.672894) (xy 241.569722 241.680144)
+				(xy 241.692959 241.781282) (xy 241.701975 241.789454) (xy 241.710544 241.798023) (xy 241.718716 241.807039)
+				(xy 241.819854 241.930276) (xy 241.8271 241.940045) (xy 241.833847 241.950142) (xy 241.840101 241.960577)
+				(xy 241.915249 242.10117) (xy 241.920451 242.112168) (xy 241.92509 242.123367) (xy 241.929191 242.134827)
+				(xy 241.975471 242.287393) (xy 241.978428 242.299199) (xy 241.980794 242.311095) (xy 241.982579 242.323129)
+				(xy 241.999104 242.490903) (xy 241.999551 242.49697) (xy 241.99985 242.503053) (xy 242 242.509141)
+				(xy 242 243.740857) (xy 241.99985 243.746945) (xy 241.999551 243.753028) (xy 241.999104 243.759095)
+				(xy 241.982579 243.926869) (xy 241.980794 243.938903) (xy 241.978428 243.950799) (xy 241.975471 243.962605)
+				(xy 241.929191 244.115171) (xy 241.92509 244.126631) (xy 241.920451 244.13783) (xy 241.915249 244.148828)
+				(xy 241.840101 244.289421) (xy 241.833842 244.299864) (xy 241.8271 244.309953) (xy 241.819854 244.319722)
+				(xy 241.718716 244.442959) (xy 241.710544 244.451975) (xy 241.701975 244.460544) (xy 241.692959 244.468716)
+				(xy 241.569722 244.569854) (xy 241.559953 244.5771) (xy 241.549864 244.583842) (xy 241.539421 244.590101)
+				(xy 241.398828 244.665249) (xy 241.38783 244.670451) (xy 241.376631 244.67509) (xy 241.365171 244.679191)
+				(xy 241.212605 244.725471) (xy 241.200799 244.728428) (xy 241.188903 244.730794) (xy 241.176869 244.732579)
+				(xy 241.009095 244.749104) (xy 241.003028 244.749551) (xy 240.996945 244.74985) (xy 240.990857 244.75)
+				(xy 236.509143 244.75) (xy 236.503063 244.749851) (xy 236.496971 244.749551) (xy 236.490904 244.749104)
+				(xy 236.323129 244.732579) (xy 236.311095 244.730794) (xy 236.299199 244.728428) (xy 236.287393 244.725471)
+				(xy 236.134827 244.679191) (xy 236.123367 244.67509) (xy 236.112168 244.670451) (xy 236.10117 244.665249)
+				(xy 236.08261 244.655328) (xy 235.960569 244.590096) (xy 235.950142 244.583847) (xy 235.940045 244.5771)
+				(xy 235.930276 244.569854) (xy 235.807039 244.468716) (xy 235.798023 244.460544) (xy 235.789454 244.451975)
+				(xy 235.781282 244.442959) (xy 235.680144 244.319722) (xy 235.672898 244.309953) (xy 235.666147 244.29985)
+				(xy 235.659905 244.289435) (xy 235.584745 244.148821) (xy 235.579547 244.13783) (xy 235.574903 244.126619)
+				(xy 235.570807 244.11517) (xy 235.524527 243.962605) (xy 235.524521 243.962584) (xy 235.521566 243.950783)
+				(xy 235.519205 243.938909) (xy 235.517421 243.926882) (xy 235.51742 243.926869) (xy 235.500892 243.759058)
+				(xy 235.500448 243.753028) (xy 235.500147 243.746917) (xy 235.5 243.740857) (xy 235.5 242.509141)
+				(xy 235.500148 242.503075) (xy 235.500149 242.503053) (xy 235.500449 242.496948) (xy 235.500892 242.490939)
+				(xy 235.517421 242.323109) (xy 235.519206 242.311083) (xy 235.52157 242.299199) (xy 235.524518 242.287425)
+				(xy 235.570813 242.134806) (xy 235.574908 242.123367) (xy 235.57955 242.11216) (xy 235.584738 242.101191)
+				(xy 235.659905 241.960563) (xy 235.666156 241.950135) (xy 235.672889 241.940058) (xy 235.68013 241.930292)
+				(xy 235.781295 241.807023) (xy 235.789448 241.798028) (xy 235.798028 241.789448) (xy 235.807023 241.781295)
+				(xy 235.930292 241.68013) (xy 235.940058 241.672889) (xy 235.950135 241.666156) (xy 235.960563 241.659905)
+				(xy 236.101191 241.584738) (xy 236.11216 241.57955) (xy 236.123371 241.574906) (xy 236.134806 241.570813)
+				(xy 236.287425 241.524518) (xy 236.299202 241.521569) (xy 236.311085 241.519205) (xy 236.323109 241.517421)
+				(xy 236.49094 241.500892) (xy 236.496952 241.500448) (xy 236.503081 241.500147) (xy 236.509143 241.5)
+				(xy 240.990857 241.5)
 			)
 		)
 	)
