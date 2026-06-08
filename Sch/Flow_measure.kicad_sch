@@ -619,7 +619,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -630,7 +630,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -639,8 +639,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -671,7 +671,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -693,7 +693,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -704,10 +704,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_02x02_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -738,6 +738,28 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -757,7 +779,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -767,6 +789,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2089,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d961fbb-6e8b-4a1a-b496-23960f677475")
+	)
+	(wire
+		(pts
 			(xy 205.74 102.87) (xy 205.74 105.41)
 		)
 		(stroke
@@ -2296,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "970bf6ab-fcaf-4cc9-bdd5-caa75431dbd8")
-	)
-	(wire
-		(pts
-			(xy 88.9 99.06) (xy 101.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9780a60a-ac10-4309-af1e-c53eea94d70a")
 	)
 	(wire
 		(pts
@@ -2547,7 +2605,7 @@
 		)
 		(uuid "fe17cb9d-0348-4645-bb78-deeeb2d18aa5")
 	)
-	(hierarchical_label "P_measure_MCU"
+	(hierarchical_label "F_measure_MCU"
 		(shape output)
 		(at 220.98 102.87 0)
 		(effects
@@ -2569,7 +2627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "022516c8-0302-46e9-bf27-bb36bbebbae5")
-		(property "Reference" "TP1"
+		(property "Reference" "TP7"
 			(at 215.9 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,28 +2720,93 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "TP2")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP8")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "TP3")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP7")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "TP1")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 76.2 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02339dc0-8ca6-46c0-8c5d-5eb263255c98")
+		(property "Reference" "#PWR0273"
+			(at 69.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 71.12 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c7d0e60-180d-40e1-9319-fcf9daed52cb")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0274")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "TP4")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "TP6")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "TP5")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02a35f9c-87d3-4bfe-a3bb-51fdae8b0200")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0219"
 			(at 133.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2759,28 +2882,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR056")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0240")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0139")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -2797,7 +2904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f95f607-0b57-471d-b879-6da6c48c2386")
-		(property "Reference" "R79"
+		(property "Reference" "R85"
 			(at 102.87 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,28 +2978,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R80")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R86")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R81")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R79")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R82")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R84")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R83")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -2909,7 +3000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "206ad285-2158-4949-981a-9b1e46da044a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0224"
 			(at 166.37 78.105 0)
 			(hide yes)
 			(show_name no)
@@ -2968,28 +3059,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR066")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0245")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0153")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -3006,7 +3081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2df42101-4545-4ebe-81c3-50a2efd7813f")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0215"
 			(at 115.57 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3065,28 +3140,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0189")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0236")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0188")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0192")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e0eaa18-2fdc-44b3-b0f8-1c24e2655fe4")
-		(property "Reference" "C19"
+		(property "Reference" "C88"
 			(at 116.205 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3210,28 +3269,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C25")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C97")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C43")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C75")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C57")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3419aafb-0ba6-4e94-a389-7def8f19f0d5")
-		(property "Reference" "R3"
+		(property "Reference" "R62"
 			(at 102.87 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,28 +3365,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R4")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R70")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R28")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R36")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39deea6c-59a0-4971-9e15-79388b3175db")
-		(property "Reference" "C4"
+		(property "Reference" "C94"
 			(at 186.69 86.8512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,28 +3493,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C6")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C103")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C54")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C81")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C63")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -3504,7 +3515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a65e4be-b2d5-46fe-89e6-5284e95de2e0")
-		(property "Reference" "R9"
+		(property "Reference" "R63"
 			(at 110.49 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,28 +3587,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R12")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R71")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R38")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4458024b-3f24-4c31-94be-2ed8510bcb86")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0220"
 			(at 140.97 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3674,28 +3669,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR057")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0241")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR081")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0165")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0143")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "458f435c-0b30-4bec-89a0-e95982cca73b")
-		(property "Reference" "R21"
+		(property "Reference" "R68"
 			(at 161.29 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,28 +3798,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R22")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R76")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R60")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R45")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3857,7 +3820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4638c542-d745-4985-b1cf-1087ae7bf17d")
-		(property "Reference" "C10"
+		(property "Reference" "C95"
 			(at 205.994 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3964,28 +3927,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C11")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C104")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C55")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C86")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C64")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -4003,7 +3950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a139799-24f5-45d6-a04c-ba2eb19a97e4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0218"
 			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4062,28 +4009,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR055")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0239")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0131")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -4100,7 +4031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b66b81c-ecd4-4e6e-b562-d78e83b8904a")
-		(property "Reference" "C18"
+		(property "Reference" "C87"
 			(at 106.045 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,28 +4138,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C24")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C96")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C32")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C42")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C72")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C56")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -4245,7 +4160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d37d6d7-f36a-4084-8f18-7e950fc9f4ff")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0229"
 			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4304,28 +4219,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR071")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0250")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR092")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0159")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -4342,7 +4241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5166db2a-ab7e-4f68-b0d1-fc901706501e")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0211"
 			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4401,28 +4300,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0194")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0232")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0195")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0193")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0196")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0198")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0197")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4440,7 +4323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5f9a13-f8b6-4928-9607-69e5108d22cd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0228"
 			(at 203.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4499,28 +4382,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR070")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0249")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR091")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR015")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0207")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0158")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c7d359c-8258-4e7d-9883-21ce61e40cf9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0223"
 			(at 148.59 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4596,28 +4463,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR064")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0244")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR084")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0150")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da0275c-1472-40a4-bbfb-b1ade40cd9dd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0214"
 			(at 115.57 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -4694,28 +4545,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR050")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0235")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0127")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -4733,7 +4568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63cee880-4bd7-4e93-91d9-b14d038325ad")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0222"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4792,28 +4627,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR061")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0243")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR083")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0169")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0149")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ad679c9-7d36-4475-aa59-debc077d3fa7")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0216"
 			(at 125.73 96.012 0)
 			(hide yes)
 			(show_name no)
@@ -4889,28 +4708,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR052")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0237")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0129")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5dcfb8-d994-4589-909b-0f9afdf3eb6d")
-		(property "Reference" "D2"
+		(property "Reference" "D15"
 			(at 210.312 96.8918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,28 +4843,93 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "D3")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "D16")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "D4")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "D15")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "D2")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 88.9 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74870bbe-9bc7-4ab4-80d8-55f12998cf80")
+		(property "Reference" "#PWR0313"
+			(at 95.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 93.98 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 88.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9af5ffb-8020-4d2d-a7af-7181f8c33724")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0314")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "D8")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -5078,7 +4946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75143c17-e7ff-4528-8601-dd7c03c3b076")
-		(property "Reference" "R8"
+		(property "Reference" "R65"
 			(at 149.86 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,28 +5051,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R14")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R73")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R53")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R42")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -5221,7 +5073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a738ebc-7975-4abc-a554-6cd56df77f69")
-		(property "Reference" "R5"
+		(property "Reference" "R67"
 			(at 161.29 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,28 +5180,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R16")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R75")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R59")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R44")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8435d542-10f7-428d-8408-bfcb0ffb7efe")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0217"
 			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5425,28 +5261,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0179")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0238")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0180")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0178")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0181")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0182")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92659a89-1ea9-4fdb-8943-384552423605")
-		(property "Reference" "R10"
+		(property "Reference" "R69"
 			(at 199.39 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5568,28 +5388,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R17")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R77")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R61")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R46")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -5606,7 +5410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92bd9921-7557-44bf-b57b-e4311f764f50")
-		(property "Reference" "TP17"
+		(property "Reference" "TP23"
 			(at 101.6 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,28 +5503,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "TP18")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP24")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "TP19")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "TP17")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "TP20")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "TP22")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "TP21")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -5737,7 +5525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92f72c19-9ca9-4cb9-a119-b28428851f5f")
-		(property "Reference" "R11"
+		(property "Reference" "R66"
 			(at 149.86 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,125 +5630,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R15")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R74")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R56")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 88.9 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "973bc587-c771-4bd4-9ec0-ce49a8751b18")
-		(property "Reference" "#PWR0162"
-			(at 85.09 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 94.234 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "010a861b-89a0-4127-9aad-beb39f46c731")
-		)
-		(instances
-			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0164")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0166")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0162")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0168")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0170")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -5977,7 +5652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3ba811e-266a-41fa-b840-da9d9cefb9f0")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0213"
 			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6036,28 +5711,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR0184")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0234")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0199")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0187")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -6074,7 +5733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b42346b1-965f-4829-befe-37a36f2c12b4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0226"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6133,28 +5792,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR068")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0247")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0155")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -6171,7 +5814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5b0a1b8-9c36-4e02-bb96-855b22373d34")
-		(property "Reference" "R7"
+		(property "Reference" "R64"
 			(at 110.49 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,28 +5886,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "R13")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "R72")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "R41")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -6281,7 +5908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9573243-48d4-4c6a-bef3-7176fc4652f8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0227"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6340,28 +5967,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR069")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0248")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR090")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0157")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -6378,7 +5989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd7490a1-0114-4c56-b19f-0f107b93a7bf")
-		(property "Reference" "C3"
+		(property "Reference" "C92"
 			(at 173.355 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,28 +6096,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C5")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C101")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C52")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C79")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C61")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bda0727a-2b25-4b00-b1bf-ff036e28b578")
-		(property "Reference" "U2"
+		(property "Reference" "U17"
 			(at 136.652 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,6 +6172,16 @@
 			)
 		)
 		(property "Product Name" "NSI1200"
+			(at 137.16 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Digital Isolator"
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +6192,18 @@
 				)
 			)
 		)
-		(property "Description P/N" "Digital Isolator"
+		(property "Replacement" ""
+			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6624,28 +6240,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "U3")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "U19")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "U12")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -6662,7 +6262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a3f352-75e9-4ee6-a1b1-e047553ae0f3")
-		(property "Reference" "TP9"
+		(property "Reference" "TP15"
 			(at 215.9 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,28 +6355,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "TP10")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP16")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "TP11")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "TP9")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "TP12")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "TP14")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "TP13")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce937405-045e-48b7-95e7-baf5b3664c09")
-		(property "Reference" "TP25"
+		(property "Reference" "TP31"
 			(at 94.996 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,28 +6470,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "TP26")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "TP32")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "TP27")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "TP25")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "TP28")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "TP30")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "TP29")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -6924,7 +6492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e6e952-e51e-4b7e-9b78-f5bc115328e1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0230"
 			(at 208.28 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6983,28 +6551,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR072")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0251")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR095")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR016")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0209")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0160")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -7021,7 +6573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d35342c5-89c9-4813-b194-f599f38e50d8")
-		(property "Reference" "C23"
+		(property "Reference" "C91"
 			(at 149.225 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,28 +6680,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C29")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C100")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C23")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C51")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C78")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C60")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -7167,7 +6703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da03e79a-ca9b-4b12-954b-f10a0c5ecf17")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0225"
 			(at 180.34 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7226,28 +6762,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR067")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0246")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0154")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -7264,7 +6784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee3d990-4e5e-453b-82af-73f7603d53a8")
-		(property "Reference" "C17"
+		(property "Reference" "C89"
 			(at 117.348 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,28 +6891,145 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C27")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C98")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C36")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C89")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C17")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 81.28 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e01fe986-d39a-4590-b0ef-0fc53306fb2b")
+		(property "Reference" "J7"
+			(at 82.55 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 82.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Name" "DS1073-01-2x2MR3T6"
+			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "Sensor"
+			(at 82.55 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6e5a3a63-fac4-47f0-ace4-8d2122e10109")
+		)
+		(pin "1"
+			(uuid "602ba116-5af5-4cec-a83d-93ccee5b913e")
+		)
+		(pin "2"
+			(uuid "5c177060-42c4-403a-b3d4-1338989feb66")
+		)
+		(pin "4"
+			(uuid "4be3b1be-a7e2-4b31-8a35-20b54ddd71d0")
+		)
+		(instances
+			(project "Storage_Armature_MCU_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "J8")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C46")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C76")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C58")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0f18be5-a497-4f78-a2fe-3867c0e55aac")
-		(property "Reference" "U6"
+		(property "Reference" "U18"
 			(at 182.88 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,6 +7101,16 @@
 			)
 		)
 		(property "Product Name" "OPA333"
+			(at 185.674 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description P/N" "Op-Amp"
 			(at 182.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7474,7 +7121,18 @@
 				)
 			)
 		)
-		(property "Description P/N" "Op-Amp"
+		(property "Replacement" ""
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 182.88 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7502,28 +7160,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "U7")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "U20")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "U13")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -7540,7 +7182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e10ae23f-78bf-442b-b6e1-05131406ebe1")
-		(property "Reference" "C22"
+		(property "Reference" "C90"
 			(at 141.605 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,28 +7289,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C28")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C99")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C50")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C77")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C59")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -7685,7 +7311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5759ec1-427f-4ec1-9428-3cda74ad122f")
-		(property "Reference" "C16"
+		(property "Reference" "C93"
 			(at 173.355 111.125 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7792,28 +7418,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "C31")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "C102")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "C53")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "C80")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "C62")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -7830,7 +7440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb0de737-a973-4caa-8fb1-39274e1a8d24")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR078"
 			(at 215.9 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7889,28 +7499,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR049")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0107")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR051")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR074")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7927,7 +7521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee5715c6-5a11-483a-ab2c-cb133c48dba8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0221"
 			(at 140.97 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7986,28 +7580,12 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR060")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0242")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR082")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0146")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -8025,7 +7603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d3d480-5256-4007-9eaa-282d9d18bce1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0212"
 			(at 105.41 80.772 0)
 			(hide yes)
 			(show_name no)
@@ -8084,36 +7662,20 @@
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "#PWR048")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0233")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "#PWR073")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "#PWR0125")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 83.82 99.06 180)
+		(lib_id "power:+24V")
+		(at 76.2 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8121,19 +7683,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f670a68c-99f8-4f04-b0ad-3b4d6437dfe7")
-		(property "Reference" "J28"
-			(at 83.82 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 81.28 96.52 0)
+		(uuid "f6633005-41f4-4dff-af3b-2da8b265f558")
+		(property "Reference" "#PWR0311"
+			(at 80.01 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8141,11 +7693,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
-			(at 83.82 99.06 0)
+		(property "Value" "+24V"
+			(at 70.866 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +7717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 99.06 0)
+			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,8 +7727,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 99.06 0)
+		(property "Description" ""
+			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8176,80 +7737,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Replacement" ""
-			(at 83.82 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Sensor"
-			(at 83.82 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description P/N" "Connector"
-			(at 83.82 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Product Name" "DS1073-01-2x1MR2T6"
-			(at 83.82 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a89e6e6e-8d82-468c-ab78-83ac0ea9f04b")
 		)
 		(pin "1"
-			(uuid "56da3435-1b01-42ea-a5df-72a852abe0a1")
+			(uuid "e469b586-9996-4f25-85c0-84f270de5270")
 		)
 		(instances
 			(project "Storage_Armature_MCU_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/06465e94-58b4-46d5-bebd-58dc4f771485"
-					(reference "J29")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/f8b4c8d0-07a9-46fc-baa1-03208194678e"
+					(reference "#PWR0312")
 					(unit 1)
 				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/6cbd62b9-7c87-47a1-a565-b02aa5c85098"
-					(reference "J30")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/775eef34-a29f-4248-aad4-070c6dff9083"
-					(reference "J28")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b1c8182c-fb29-4994-9c3a-29970e43d124"
-					(reference "J31")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/b8e5a087-7c8b-4177-a051-558409ab2265"
-					(reference "J33")
-					(unit 1)
-				)
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/d8feeea0-7852-444e-abaf-8314df747b14"
-					(reference "J32")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/fdded5b5-a6c0-4030-9e39-a75869b457c5"
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)

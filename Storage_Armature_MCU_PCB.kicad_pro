@@ -543,7 +543,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "Docs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D/PDU_Control_Board_V1.2.step",
@@ -770,11 +770,11 @@
     ],
     [
       "fdded5b5-a6c0-4030-9e39-a75869b457c5",
-      "Sensor_7"
+      "Sensor_flow_1"
     ],
     [
       "f8b4c8d0-07a9-46fc-baa1-03208194678e",
-      "Sensor_8"
+      "Sensor_flow_2"
     ],
     [
       "23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0",

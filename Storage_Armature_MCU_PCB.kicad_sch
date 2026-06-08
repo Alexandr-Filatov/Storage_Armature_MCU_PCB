@@ -23533,7 +23533,7 @@
 				)
 			)
 		)
-		(property "Product Name" "WRB2403S-3WR2"
+		(property "Product Name" "WRB2405S-3WR2"
 			(at 118.11 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -23545,6 +23545,28 @@
 			)
 		)
 		(property "Description P/N" "DC/DC"
+			(at 118.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement" ""
+			(at 118.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
 			(at 118.11 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -37199,7 +37221,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f8b4c8d0-07a9-46fc-baa1-03208194678e")
-		(property "Sheetname" "Sensor_8"
+		(property "Sheetname" "Sensor_flow_2"
 			(at 742.95 474.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37210,7 +37232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch/Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Flow_measure.kicad_sch"
 			(at 742.95 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37221,9 +37243,9 @@
 				(justify left top)
 			)
 		)
-		(pin "P_measure_MCU" output
+		(pin "F_measure_MCU" output
 			(at 767.08 474.98 90)
-			(uuid "b356f139-9883-4545-b859-9d61a23d3e47")
+			(uuid "b128ed83-efd0-4ae0-967c-ab02d45b53cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37255,7 +37277,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "fdded5b5-a6c0-4030-9e39-a75869b457c5")
-		(property "Sheetname" "Sensor_7"
+		(property "Sheetname" "Sensor_flow_1"
 			(at 692.15 474.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37266,7 +37288,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sch/Measure.kicad_sch"
+		(property "Sheetfile" "Sch/Flow_measure.kicad_sch"
 			(at 692.15 508.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37277,9 +37299,9 @@
 				(justify left top)
 			)
 		)
-		(pin "P_measure_MCU" output
+		(pin "F_measure_MCU" output
 			(at 716.28 474.98 90)
-			(uuid "7a4aaa0b-c29f-4be7-92f0-57cdf9d0f7a2")
+			(uuid "e5c7dea7-0040-4533-b74d-283e430ab9a9")
 			(effects
 				(font
 					(size 1.27 1.27)
